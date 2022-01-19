@@ -1,0 +1,15 @@
+---
+content_type: resource
+description: ''
+file: null
+resourcetype: Video
+title: 'Video 5: Visualizing the Problem'
+uid: 7049189f-24cf-e5e0-b7a7-8b4c6f748eb7
+video_files:
+  archive_url: https://archive.org/download/MIT15.071S17/MIT15_071S17_Session_8.2.08_300k.mp4
+  video_captions_file: /courses/15-071-the-analytics-edge-spring-2017/33524d584aaf58a4bb7d72dff124574d_0RaZe62Rg2A.vtt
+  video_thumbnail_file: https://img.youtube.com/vi/0RaZe62Rg2A/default.jpg
+  video_transcript_file: /courses/15-071-the-analytics-edge-spring-2017/1fe66b5119da4de6ce00337a53212e3e_0RaZe62Rg2A.pdf
+video_metadata:
+  youtube_id: 0RaZe62Rg2A
+---
