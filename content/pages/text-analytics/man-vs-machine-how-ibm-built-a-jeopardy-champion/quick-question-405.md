@@ -6,7 +6,7 @@ title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
 uid: cf2f9551-18a1-2a65-f12e-76866e4e7c82
 ---
 
-*   [<Man vs. Machine: How IBM Built a Jeopardy Champion]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion)
+*   [\<Man vs. Machine: How IBM Built a Jeopardy Champion]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion)
 *   [5.3.1Video 1: IBM Watson]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion)
 *   [5.3.2Quick Question]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion/quick-question-405)
 *   [5.3.3Video 2: The Game of Jeopardy]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion/video-2-the-game-of-jeopardy)

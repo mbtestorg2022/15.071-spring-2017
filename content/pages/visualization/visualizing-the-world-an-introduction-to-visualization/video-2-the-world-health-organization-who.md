@@ -6,7 +6,7 @@ title: '7.2 Visualizing the World: An Introduction to Visualization'
 uid: c0e12457-eea5-7533-f2df-4a7f420a5b38
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-505)
+*   [\<Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-505)
 *   [7.2.1Video 1: The Power of Visualizations]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization)
 *   [7.2.2Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-505)
 *   [7.2.3Video 2: The World Health Organization (WHO)]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/video-2-the-world-health-organization-who)

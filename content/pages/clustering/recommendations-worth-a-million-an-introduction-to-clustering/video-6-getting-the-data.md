@@ -6,7 +6,7 @@ title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
 uid: 97456de3-0891-98f1-c51a-a74e3d11930c
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-458)
+*   [\<Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-458)
 *   [6.2.1Video 1: Introduction to Netflix]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering)
 *   [6.2.2Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-433)
 *   [6.2.3Video 2: Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-2-recommendation-systems)

@@ -6,7 +6,7 @@ title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
 uid: 9ca8d522-1938-d4b5-71f2-f13ccdb46a19
 ---
 
-*   [<Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-1-introduction-8)
+*   [\<Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-1-introduction-8)
 *   [8.4.1Welcome to Recitation 8]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation)
 *   [8.4.2Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-1-introduction-8)
 *   [8.4.3Video 2: How Online Advertising Works]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-2-how-online-advertising-works)

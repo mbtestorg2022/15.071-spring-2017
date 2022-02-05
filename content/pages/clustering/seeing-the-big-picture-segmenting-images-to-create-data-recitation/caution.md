@@ -6,7 +6,7 @@ title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitatio
 uid: 7fd4c5f8-aa7b-7e88-ffac-f4ee5c2d749c
 ---
 
-*   [<Video 3: Hierarchical Clustering]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-3-hierarchical-clustering)
+*   [\<Video 3: Hierarchical Clustering]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-3-hierarchical-clustering)
 *   [6.4.1Welcome to Recitation 6]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation)
 *   [6.4.2Video 1: Image Segmentation]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-1-image-segmentation)
 *   [6.4.3Video 2: Clustering Pixels]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-2-clustering-pixels)

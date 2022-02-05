@@ -6,7 +6,7 @@ title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
 uid: 55f5a296-f823-1477-e837-4b3f5b26d21f
 ---
 
-*   [<Turning Tweets into Knowledge: An Introduction to Text Analytics]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics)
+*   [\<Turning Tweets into Knowledge: An Introduction to Text Analytics]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics)
 *   [5.2.1Video 1: Twitter]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics)
 *   [5.2.2Video 2: Text Analytics]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-2-text-analytics)
 *   [5.2.3Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-362)

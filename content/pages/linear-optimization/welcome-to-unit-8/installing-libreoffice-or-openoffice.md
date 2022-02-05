@@ -6,7 +6,7 @@ title: 8.1 Welcome to Unit 8
 uid: 8556ba9c-76cf-a0d6-4a07-e442426c65bf
 ---
 
-*   [<Welcome to Unit 8]({{< baseurl >}}/pages/linear-optimization/welcome-to-unit-8)
+*   [\<Welcome to Unit 8]({{< baseurl >}}/pages/linear-optimization/welcome-to-unit-8)
 *   [8.1.1Welcome to Unit 8]({{< baseurl >}}/pages/linear-optimization/welcome-to-unit-8)
 *   [8.1.2Installing LibreOffice or OpenOffice]({{< baseurl >}}/pages/linear-optimization/welcome-to-unit-8/installing-libreoffice-or-openoffice)
 *   [8.1.3Spreadsheet Tutorial]({{< baseurl >}}/pages/linear-optimization/welcome-to-unit-8/spreadsheet-tutorial)

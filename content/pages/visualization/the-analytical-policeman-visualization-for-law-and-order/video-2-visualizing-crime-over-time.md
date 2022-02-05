@@ -6,7 +6,7 @@ title: '7.3 The Analytical Policeman: Visualization for Law and Order'
 uid: 647a1b5c-5d6b-626d-39aa-4ad77903806e
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-540)
+*   [\<Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-540)
 *   [7.3.1Video 1: Predictive Policing]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order)
 *   [7.3.2Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-540)
 *   [7.3.3Video 2: Visualizing Crime Over Time]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-2-visualizing-crime-over-time)

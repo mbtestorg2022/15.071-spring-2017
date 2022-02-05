@@ -6,7 +6,7 @@ title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
 uid: 0c9bd7c2-6f88-e1f3-72bb-45bfb1705096
 ---
 
-*   [<Video 8: Conclusion]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-8-conclusion)
+*   [\<Video 8: Conclusion]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-8-conclusion)
 *   [5.3.1Video 1: IBM Watson]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion)
 *   [5.3.2Quick Question]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion/quick-question-405)
 *   [5.3.3Video 2: The Game of Jeopardy]({{< baseurl >}}/pages/text-analytics/man-vs-machine-how-ibm-built-a-jeopardy-champion/video-2-the-game-of-jeopardy)

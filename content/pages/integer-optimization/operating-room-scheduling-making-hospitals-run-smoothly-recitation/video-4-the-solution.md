@@ -6,7 +6,7 @@ title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitatio
 uid: 6e8bdbce-3ea9-e644-0e2b-66d90a657d47
 ---
 
-*   [<Video 3: Solving the Problem]({{< baseurl >}}/pages/integer-optimization/operating-room-scheduling-making-hospitals-run-smoothly-recitation/video-3-solving-the-problem-5)
+*   [\<Video 3: Solving the Problem]({{< baseurl >}}/pages/integer-optimization/operating-room-scheduling-making-hospitals-run-smoothly-recitation/video-3-solving-the-problem-5)
 *   [9.4.1Welcome to Recitation 9]({{< baseurl >}}/pages/integer-optimization/operating-room-scheduling-making-hospitals-run-smoothly-recitation)
 *   [9.4.2Video 1: The Problem]({{< baseurl >}}/pages/integer-optimization/operating-room-scheduling-making-hospitals-run-smoothly-recitation/video-1-the-problem)
 *   [9.4.3Video 2: An Optimization Model]({{< baseurl >}}/pages/integer-optimization/operating-room-scheduling-making-hospitals-run-smoothly-recitation/video-2-an-optimization-model)

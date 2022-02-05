@@ -6,7 +6,7 @@ title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
 uid: d7f89a0b-f4f5-ad76-faeb-94bf9b442e5b
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/quick-question-486)
+*   [\<Quick Question]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/quick-question-486)
 *   [6.3.1Video 1: Heart Attacks]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection)
 *   [6.3.2Quick Question]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/quick-question-481)
 *   [6.3.3Video 2: The Data]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/video-2-the-data-6)

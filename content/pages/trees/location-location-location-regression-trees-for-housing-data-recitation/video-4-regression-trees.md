@@ -6,7 +6,7 @@ title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Re
 uid: df4bdc23-f257-ab70-73f9-70896028e009
 ---
 
-*   [<Video 3: Geographical Predictions]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-3-geographical-predictions)
+*   [\<Video 3: Geographical Predictions]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-3-geographical-predictions)
 *   [4.4.1Welcome to Recitation 4]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation)
 *   [4.4.2Video 1: Boston Housing Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-1-boston-housing-data)
 *   [4.4.3Video 2: The Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-2-the-data)

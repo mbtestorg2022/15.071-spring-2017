@@ -6,7 +6,7 @@ title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
 uid: 0943bd81-1d9c-af9e-92bf-3c7bf9d7b9f2
 ---
 
-*   [<Video 8: The Analytics Edge of Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-8-the-analytics-edge-of-recommendation-systems)
+*   [\<Video 8: The Analytics Edge of Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-8-the-analytics-edge-of-recommendation-systems)
 *   [6.3.1Video 1: Heart Attacks]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection)
 *   [6.3.2Quick Question]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/quick-question-481)
 *   [6.3.3Video 2: The Data]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/video-2-the-data-6)

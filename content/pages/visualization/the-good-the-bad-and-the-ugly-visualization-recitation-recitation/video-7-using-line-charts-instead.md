@@ -6,7 +6,7 @@ title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitati
 uid: 5d57bafe-1422-b8d9-a742-d6339058ab65
 ---
 
-*   [<Video 6: Scales]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-6-scales)
+*   [\<Video 6: Scales]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-6-scales)
 *   [7.4.1Welcome to Recitation 7]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation)
 *   [7.4.2Video 1: Introduction]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-1-introduction)
 *   [7.4.3Video 2: Pie Charts]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-2-pie-charts)

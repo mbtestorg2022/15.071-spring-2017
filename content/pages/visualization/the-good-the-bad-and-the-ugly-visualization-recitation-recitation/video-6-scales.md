@@ -6,7 +6,7 @@ title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitati
 uid: 79b4616b-3b2f-da51-0a41-76440e50bfb1
 ---
 
-*   [<Video 5: World Maps in R]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-5-world-maps-in-r)
+*   [\<Video 5: World Maps in R]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-5-world-maps-in-r)
 *   [7.4.1Welcome to Recitation 7]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation)
 *   [7.4.2Video 1: Introduction]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-1-introduction)
 *   [7.4.3Video 2: Pie Charts]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-2-pie-charts)

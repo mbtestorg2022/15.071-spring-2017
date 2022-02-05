@@ -6,7 +6,7 @@ title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
 uid: 2abee273-d513-5397-a129-e7c58dc0c47a
 ---
 
-*   [<Video 2: The Optimization Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-2-the-optimization-problem)
+*   [\<Video 2: The Optimization Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-2-the-optimization-problem)
 *   [9.2.1Video 1: Introduction]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization)
 *   [9.2.2Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-665)
 *   [9.2.3Video 2: The Optimization Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-2-the-optimization-problem)

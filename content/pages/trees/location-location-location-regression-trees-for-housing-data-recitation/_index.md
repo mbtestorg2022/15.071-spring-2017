@@ -6,7 +6,7 @@ title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Re
 uid: aef27920-c51c-efd1-88ed-937539251bd9
 ---
 
-*   [<Video 9: Results]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-9-results)
+*   [\<Video 9: Results]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-9-results)
 *   [4.4.1Welcome to Recitation 4]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation)
 *   [4.4.2Video 1: Boston Housing Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-1-boston-housing-data)
 *   [4.4.3Video 2: The Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-2-the-data)

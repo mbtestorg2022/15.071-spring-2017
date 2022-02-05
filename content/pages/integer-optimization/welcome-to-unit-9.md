@@ -6,7 +6,7 @@ title: 9.1 Welcome to Unit 9
 uid: d99be1d9-3dd7-fc0a-70ba-351d93404d9c
 ---
 
-*   [<Integer Optimization]({{< baseurl >}}/pages/integer-optimization)
+*   [\<Integer Optimization]({{< baseurl >}}/pages/integer-optimization)
 *   [9.1.1Welcome to Unit 9]({{< baseurl >}}/pages/integer-optimization/welcome-to-unit-9)
 *   [\>Sports Scheduling: An Introduction to Integer Optimization]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization)
 

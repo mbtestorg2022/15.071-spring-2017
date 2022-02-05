@@ -6,7 +6,7 @@ title: '2.3 Moneyball: The Power of Sports Analytics '
 uid: a7a0fe58-cf53-ad2e-8a48-00f4efacbaed
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/quick-question-119)
+*   [\<Quick Question]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/quick-question-119)
 *   [2.3.1A Quick Introduction to Baseball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics)
 *   [2.3.2Video 1: The Story of Moneyball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-1-the-story-of-moneyball)
 *   [2.3.3Video 2: Making it to the Playoffs]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-2-making-it-to-the-playoffs)

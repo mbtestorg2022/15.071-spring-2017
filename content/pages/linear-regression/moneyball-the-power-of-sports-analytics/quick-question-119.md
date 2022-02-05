@@ -6,7 +6,7 @@ title: '2.3 Moneyball: The Power of Sports Analytics '
 uid: b02914f9-c244-59cc-fc6d-2a10d6095dba
 ---
 
-*   [<Video 4: Using the Models to Make Predictions]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-4-using-the-models-to-make-predictions)
+*   [\<Video 4: Using the Models to Make Predictions]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-4-using-the-models-to-make-predictions)
 *   [2.3.1A Quick Introduction to Baseball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics)
 *   [2.3.2Video 1: The Story of Moneyball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-1-the-story-of-moneyball)
 *   [2.3.3Video 2: Making it to the Playoffs]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-2-making-it-to-the-playoffs)
@@ -26,12 +26,101 @@ Quick Question
 
 Suppose you are the General Manager of a baseball team, and you are selecting **two** players for your team. You have a budget of $1,500,000, and you have the choice between the following players:
 
-| Player Name {{< br >}}{{< br >}}  | OBP | SLG | Salary |
-| Eric Chavez | 0.338 | 0.540 | $1,400,000 |
-| Jeremy Giambi | 0.391 | 0.450 | $1,065,000 |
-| Frank Menechino | 0.369 | 0.374 | $295,000 |
-| Greg Myers | 0.313 | 0.447 | $800,000 |
-| Carlos Pena | 0.361 | 0.500 | $300,000 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Player Name
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+OBP
+{{< tdclose >}}
+{{< tdopen >}}
+SLG
+{{< tdclose >}}
+{{< tdopen >}}
+Salary
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Eric Chavez
+{{< tdclose >}}
+{{< tdopen >}}
+0.338
+{{< tdclose >}}
+{{< tdopen >}}
+0.540
+{{< tdclose >}}
+{{< tdopen >}}
+$1,400,000
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Jeremy Giambi
+{{< tdclose >}}
+{{< tdopen >}}
+0.391
+{{< tdclose >}}
+{{< tdopen >}}
+0.450
+{{< tdclose >}}
+{{< tdopen >}}
+$1,065,000
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Frank Menechino
+{{< tdclose >}}
+{{< tdopen >}}
+0.369
+{{< tdclose >}}
+{{< tdopen >}}
+0.374
+{{< tdclose >}}
+{{< tdopen >}}
+$295,000
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Greg Myers
+{{< tdclose >}}
+{{< tdopen >}}
+0.313
+{{< tdclose >}}
+{{< tdopen >}}
+0.447
+{{< tdclose >}}
+{{< tdopen >}}
+$800,000
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Carlos Pena
+{{< tdclose >}}
+{{< tdopen >}}
+0.361
+{{< tdclose >}}
+{{< tdopen >}}
+0.500
+{{< tdclose >}}
+{{< tdopen >}}
+$300,000
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;Eric Chavez&nbsp;{{< /quiz_choice >}}
 {{< quiz_choice isCorrect="true" >}}&nbsp;Jeremy Giambi&nbsp;{{< /quiz_choice >}}

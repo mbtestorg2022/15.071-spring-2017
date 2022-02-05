@@ -7,7 +7,7 @@ title: '1.2 The Analytics Edge: Intelligence, Happiness, and Health  (Lecture Se
 uid: e99b6877-02dc-fd34-e728-58762102d0d1
 ---
 
-*   [<Video 3: Example 2 - eHarmony]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-3-example-2-eharmony)
+*   [\<Video 3: Example 2 - eHarmony]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-3-example-2-eharmony)
 *   [1.2.1Video 1: Introduction to The Analytics Edge]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence)
 *   [1.2.2Video 2: Example 1 - IBM Watson]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-2-example-1-ibm-watson)
 *   [1.2.3Video 3: Example 2 - eHarmony]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-3-example-2-eharmony)

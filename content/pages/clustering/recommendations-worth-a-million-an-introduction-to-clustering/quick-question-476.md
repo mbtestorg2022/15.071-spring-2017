@@ -6,7 +6,7 @@ title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
 uid: 4d3cfab6-9136-623b-888a-5451d2fad159
 ---
 
-*   [<Video 7: Hierarchical Clustering in R]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-7-hierarchical-clustering-in-r)
+*   [\<Video 7: Hierarchical Clustering in R]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-7-hierarchical-clustering-in-r)
 *   [6.2.1Video 1: Introduction to Netflix]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering)
 *   [6.2.2Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-433)
 *   [6.2.3Video 2: Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-2-recommendation-systems)

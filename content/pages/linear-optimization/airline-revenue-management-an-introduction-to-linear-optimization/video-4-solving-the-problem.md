@@ -6,7 +6,7 @@ title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
 uid: 86a033cc-e142-d448-a8bb-9112a73f89db
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-590)
+*   [\<Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-590)
 *   [8.2.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization)
 *   [8.2.2Video 2: A Single Flight]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-2-a-single-flight)
 *   [8.2.3Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-581)

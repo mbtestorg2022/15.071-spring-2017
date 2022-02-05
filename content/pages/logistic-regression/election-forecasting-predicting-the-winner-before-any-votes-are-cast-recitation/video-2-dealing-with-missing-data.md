@@ -7,7 +7,7 @@ title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are Cas
 uid: 43791d3a-19ab-d5be-3491-37c83ceb6676
 ---
 
-*   [<Video 1: Election Prediction]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-1-election-prediction)
+*   [\<Video 1: Election Prediction]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-1-election-prediction)
 *   [3.4.1Welcome to Recitation 3]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation)
 *   [3.4.2Video 1: Election Prediction]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-1-election-prediction)
 *   [3.4.3Video 2: Dealing with Missing Data]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-2-dealing-with-missing-data)

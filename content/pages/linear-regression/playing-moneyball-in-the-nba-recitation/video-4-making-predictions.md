@@ -6,7 +6,7 @@ title: 2.4 Playing Moneyball in the NBA  (Recitation)
 uid: 4a72056c-6bbe-0c01-489f-b7068637be07
 ---
 
-*   [<Video 3: Points Scored]({{< baseurl >}}/pages/linear-regression/playing-moneyball-in-the-nba-recitation/video-3-points-scored)
+*   [\<Video 3: Points Scored]({{< baseurl >}}/pages/linear-regression/playing-moneyball-in-the-nba-recitation/video-3-points-scored)
 *   [2.4.1Welcome to Recitation 2]({{< baseurl >}}/pages/linear-regression/playing-moneyball-in-the-nba-recitation)
 *   [2.4.2Video 1: The Data]({{< baseurl >}}/pages/linear-regression/playing-moneyball-in-the-nba-recitation/video-1-the-data)
 *   [2.4.3Video 2: Playoffs and Wins]({{< baseurl >}}/pages/linear-regression/playing-moneyball-in-the-nba-recitation/video-2-playoffs-and-wins)

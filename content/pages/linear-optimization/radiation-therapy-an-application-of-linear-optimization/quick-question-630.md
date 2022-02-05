@@ -6,7 +6,7 @@ title: '8.3 Radiation Therapy: An Application of Linear Optimization '
 uid: 12e6da56-9931-1c83-7bce-67f78b499ef3
 ---
 
-*   [<Radiation Therapy: An Application of Linear Optimization]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
+*   [\<Radiation Therapy: An Application of Linear Optimization]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
 *   [8.3.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
 *   [8.3.2Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-630)
 *   [8.3.3Video 2: An Optimization Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-2-an-optimization-problem)

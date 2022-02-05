@@ -6,7 +6,7 @@ title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recita
 uid: 452a514d-74e9-b441-d73a-e42c18939bda
 ---
 
-*   [<Video 7: The ROC Curve]({{< baseurl >}}/pages/text-analytics/predictive-coding-bringing-text-analytics-to-the-courtroom-recitation/video-7-the-roc-curve)
+*   [\<Video 7: The ROC Curve]({{< baseurl >}}/pages/text-analytics/predictive-coding-bringing-text-analytics-to-the-courtroom-recitation/video-7-the-roc-curve)
 *   [5.4.1Welcome to Recitation 5]({{< baseurl >}}/pages/text-analytics/predictive-coding-bringing-text-analytics-to-the-courtroom-recitation)
 *   [5.4.2Video 1: The Story of Enron]({{< baseurl >}}/pages/text-analytics/predictive-coding-bringing-text-analytics-to-the-courtroom-recitation/video-1-the-story-of-enron)
 *   [5.4.3Video 2: The Data]({{< baseurl >}}/pages/text-analytics/predictive-coding-bringing-text-analytics-to-the-courtroom-recitation/video-2-the-data-2)

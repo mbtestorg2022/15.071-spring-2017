@@ -6,7 +6,7 @@ title: '4.2 Judge, Jury, and Classifier: An Introduction to Trees '
 uid: 11f9b44d-c296-0689-414b-8c313764a18d
 ---
 
-*   [<Welcome to Unit 4]({{< baseurl >}}/pages/trees/welcome-to-unit-4)
+*   [\<Welcome to Unit 4]({{< baseurl >}}/pages/trees/welcome-to-unit-4)
 *   [4.2.1Video 1: The Supreme Court]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees)
 *   [4.2.2Quick Question]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/quick-question-253)
 *   [4.2.3Video 2: CART]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/video-2-cart)

@@ -6,7 +6,7 @@ title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
 uid: f02a2b52-b26a-e5f0-8ddd-d7d9208d585d
 ---
 
-*   [<Video 3: Data Analysis]({{< baseurl >}}/pages/an-introduction-to-analytics/understanding-food-nutritional-education-with-data-recitation/video-3-data-analysis)
+*   [\<Video 3: Data Analysis]({{< baseurl >}}/pages/an-introduction-to-analytics/understanding-food-nutritional-education-with-data-recitation/video-3-data-analysis)
 *   [1.4.1Welcome to Recitation 1]({{< baseurl >}}/pages/an-introduction-to-analytics/understanding-food-nutritional-education-with-data-recitation)
 *   [1.4.2Video 1: The Importance of Food and Nutrition]({{< baseurl >}}/pages/an-introduction-to-analytics/understanding-food-nutritional-education-with-data-recitation/video-1-the-importance-of-food-and-nutrition)
 *   [1.4.3Video 2: Working with Data in R]({{< baseurl >}}/pages/an-introduction-to-analytics/understanding-food-nutritional-education-with-data-recitation/video-2-working-with-data-in-r)

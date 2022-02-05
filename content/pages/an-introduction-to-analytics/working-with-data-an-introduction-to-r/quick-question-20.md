@@ -6,7 +6,7 @@ title: '1.3 Working with Data: An Introduction to R '
 uid: e3496fee-bb68-27a9-7779-dea4bd50cc77
 ---
 
-*   [<Video 4: Loading Data Files]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-4-loading-data-files)
+*   [\<Video 4: Loading Data Files]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-4-loading-data-files)
 *   [1.3.1Download and Install R]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r)
 *   [1.3.2Video 1: Why R?]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-1-why-r)
 *   [1.3.3Quick Question]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/quick-question)

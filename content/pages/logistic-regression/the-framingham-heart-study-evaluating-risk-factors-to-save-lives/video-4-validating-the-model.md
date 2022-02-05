@@ -6,7 +6,7 @@ title: '3.3 The Framingham Heart Study: Evaluating Risk Factors to Save Lives '
 uid: 4f9a84c3-4f7f-3867-891d-be7fae75a149
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/quick-question-233)
+*   [\<Quick Question]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/quick-question-233)
 *   [3.3.1Video 1: The Framingham Heart Study]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives)
 *   [3.3.2Quick Question]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/quick-question-220)
 *   [3.3.3Video 2: Risk Factors]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/video-2-risk-factors)

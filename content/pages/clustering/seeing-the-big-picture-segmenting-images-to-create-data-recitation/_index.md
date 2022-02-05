@@ -6,7 +6,7 @@ title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitatio
 uid: c6d206cc-fb15-28f6-048f-29e817450da7
 ---
 
-*   [<Video 5: The Analytics Edge]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/video-5-the-analytics-edge)
+*   [\<Video 5: The Analytics Edge]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/video-5-the-analytics-edge)
 *   [6.4.1Welcome to Recitation 6]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation)
 *   [6.4.2Video 1: Image Segmentation]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-1-image-segmentation)
 *   [6.4.3Video 2: Clustering Pixels]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-2-clustering-pixels)

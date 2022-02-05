@@ -6,7 +6,7 @@ title: '7.2 Visualizing the World: An Introduction to Visualization'
 uid: a7c29773-2c9a-e308-c35b-598232cd91c6
 ---
 
-*   [<Video 5: Advanced Scatterplots Using ggplot]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/video-5-advanced-scatterplots-using-ggplot)
+*   [\<Video 5: Advanced Scatterplots Using ggplot]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/video-5-advanced-scatterplots-using-ggplot)
 *   [7.2.1Video 1: The Power of Visualizations]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization)
 *   [7.2.2Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-505)
 *   [7.2.3Video 2: The World Health Organization (WHO)]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/video-2-the-world-health-organization-who)

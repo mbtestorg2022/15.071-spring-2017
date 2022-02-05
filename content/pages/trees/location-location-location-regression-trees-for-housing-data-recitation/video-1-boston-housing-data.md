@@ -6,7 +6,7 @@ title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Re
 uid: 8741d74c-b086-3663-cea9-0529b643e153
 ---
 
-*   [<Location, Location, Location: Regression Trees for Housing Data (Recitation)]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation)
+*   [\<Location, Location, Location: Regression Trees for Housing Data (Recitation)]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation)
 *   [4.4.1Welcome to Recitation 4]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation)
 *   [4.4.2Video 1: Boston Housing Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-1-boston-housing-data)
 *   [4.4.3Video 2: The Data]({{< baseurl >}}/pages/trees/location-location-location-regression-trees-for-housing-data-recitation/video-2-the-data)

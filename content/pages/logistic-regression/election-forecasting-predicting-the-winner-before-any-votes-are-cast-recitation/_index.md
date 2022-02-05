@@ -6,7 +6,7 @@ title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are Cas
 uid: cd55cbba-60f6-d5d3-7320-e05f520c4cf1
 ---
 
-*   [<Video 6: Overall Impact]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/video-6-overall-impact)
+*   [\<Video 6: Overall Impact]({{< baseurl >}}/pages/logistic-regression/the-framingham-heart-study-evaluating-risk-factors-to-save-lives/video-6-overall-impact)
 *   [3.4.1Welcome to Recitation 3]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation)
 *   [3.4.2Video 1: Election Prediction]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-1-election-prediction)
 *   [3.4.3Video 2: Dealing with Missing Data]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-2-dealing-with-missing-data)

@@ -6,7 +6,7 @@ title: '9.3 eHarmony: Maximizing the Probability of Love '
 uid: 4ee865af-6915-5a39-e352-d98aad5670d0
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/integer-optimization/eharmony-maximizing-the-probability-of-love/quick-question-703)
+*   [\<Quick Question]({{< baseurl >}}/pages/integer-optimization/eharmony-maximizing-the-probability-of-love/quick-question-703)
 *   [9.3.1Video 1: The Goal of eHarmony]({{< baseurl >}}/pages/integer-optimization/eharmony-maximizing-the-probability-of-love)
 *   [9.3.2Quick Question]({{< baseurl >}}/pages/integer-optimization/eharmony-maximizing-the-probability-of-love/quick-question-698)
 *   [9.3.3Video 2: Using Integer Optimization]({{< baseurl >}}/pages/integer-optimization/eharmony-maximizing-the-probability-of-love/video-2-using-integer-optimization)

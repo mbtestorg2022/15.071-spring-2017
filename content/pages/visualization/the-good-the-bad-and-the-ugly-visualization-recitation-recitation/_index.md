@@ -6,7 +6,7 @@ title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitati
 uid: 0af39afb-aff0-a226-a397-da1206ecd712
 ---
 
-*   [<Video 7: The Analytics Edge]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-7-the-analytics-edge)
+*   [\<Video 7: The Analytics Edge]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-7-the-analytics-edge)
 *   [7.4.1Welcome to Recitation 7]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation)
 *   [7.4.2Video 1: Introduction]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-1-introduction)
 *   [7.4.3Video 2: Pie Charts]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-2-pie-charts)

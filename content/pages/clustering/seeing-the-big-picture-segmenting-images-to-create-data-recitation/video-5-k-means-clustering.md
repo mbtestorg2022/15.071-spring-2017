@@ -6,7 +6,7 @@ title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitatio
 uid: 463ba1ca-1b89-e001-7fa8-7ebc26673bd4
 ---
 
-*   [<Video 4: MRI Image]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-4-mri-image)
+*   [\<Video 4: MRI Image]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-4-mri-image)
 *   [6.4.1Welcome to Recitation 6]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation)
 *   [6.4.2Video 1: Image Segmentation]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-1-image-segmentation)
 *   [6.4.3Video 2: Clustering Pixels]({{< baseurl >}}/pages/clustering/seeing-the-big-picture-segmenting-images-to-create-data-recitation/video-2-clustering-pixels)
