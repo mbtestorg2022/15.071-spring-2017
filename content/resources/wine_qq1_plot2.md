@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Plot of price vs. harvest rainfall.
+parent_uid: ef446456-afa1-894f-834f-a9ae8908c9a2
 resourcetype: Image
 title: Wine_QQ1_Plot2.png
 uid: 53ba2e1c-4dec-e92e-46f8-1091cad607c1

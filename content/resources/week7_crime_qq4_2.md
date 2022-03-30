@@ -8,6 +8,7 @@ image_metadata:
   credit: ''
   image-alt: Alternate heatmap of total motor vehicle thefts according to time and
     day in shades of red.
+parent_uid: 6bc1ec1e-1262-c5a1-28e1-f822404bb0ba
 resourcetype: Image
 title: Week7_Crime_QQ4_2.png
 uid: be57802c-07c0-cabb-ef69-146663aaec19

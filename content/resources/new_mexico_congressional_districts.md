@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Colored map showing New Mexico's congressional districts.
+parent_uid: 1ab3f4de-f050-7a6b-6327-b8e7dfa4fb69
 resourcetype: Image
 title: New_Mexico_Congressional_Districts.png
 uid: a716bfa7-76b2-be85-f666-b0a4e6877f69

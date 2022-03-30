@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Penalty error matrix showing forecast vs. outcome.
+parent_uid: c679795e-ed4f-1bd8-079e-7f008721cf38
 resourcetype: Image
 title: QQ4_PenaltyError.png
 uid: 2d20a1e4-50f8-bd62-006b-f8e20477eb64

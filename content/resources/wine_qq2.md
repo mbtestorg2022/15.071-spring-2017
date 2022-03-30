@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Figure showing three data points and the best fit line.
+parent_uid: a15d356c-50bc-b55a-2cbd-e1c66378ef25
 resourcetype: Image
 title: Wine_QQ2.png
 uid: 0c812c31-8c89-3954-3d90-1b0f954da36a

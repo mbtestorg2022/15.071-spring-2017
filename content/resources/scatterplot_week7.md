@@ -8,6 +8,7 @@ image_metadata:
   credit: ''
   image-alt: Scatterplot showing the miles per gallon of a car as a function of the
     car's weight.
+parent_uid: afc1a35a-1de0-dfbe-71d4-6f725359bcfc
 resourcetype: Image
 title: Scatterplot_Week7.jpg
 uid: 2dfcddaf-9155-38a5-1d30-28359bbd2fcb

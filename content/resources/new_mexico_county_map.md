@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Map showing the outlines of New Mexico's counties.
+parent_uid: 1ab3f4de-f050-7a6b-6327-b8e7dfa4fb69
 resourcetype: Image
 title: New_Mexico_County_Map.png
 uid: 47316383-de17-3f45-7bcc-8726c7c9aef7

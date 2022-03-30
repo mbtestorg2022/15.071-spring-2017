@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Example of the same gerrymandering grid in which red wins.
+parent_uid: 1ab3f4de-f050-7a6b-6327-b8e7dfa4fb69
 resourcetype: Image
 title: gerrymandering_redwins.png
 uid: 96516b5e-431f-1672-ee8c-a633d2d2e93e
