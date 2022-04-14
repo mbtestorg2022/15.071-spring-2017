@@ -8,6 +8,7 @@ parent_uid: bebdc8ab-5b1f-9682-d6b7-62b671b5cf25
 title: 1.1 Welcome to Unit 1
 uid: a958c6c3-2e8f-cfa1-cbab-a162067382a1
 ---
+- {{% resource_link a958c6c3-2e8f-cfa1-cbab-a162067382a1 "> 1.1 Welcome to Unit 1" %}}
 -  
 - {{% resource_link 252f83b9-1a54-bc0d-b02e-8b2cdb45007c "> 7.1 Welcome to Unit 7" %}}
 -  
