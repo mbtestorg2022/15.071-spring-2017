@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 2 Linear Regression
 uid: c846ced6-fc6d-3bc9-64e0-47324e251a98
 ---

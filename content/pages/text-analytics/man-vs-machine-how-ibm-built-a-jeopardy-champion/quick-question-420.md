@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
+parent_type: CourseSection
 parent_uid: 0c9bd7c2-6f88-e1f3-72bb-45bfb1705096
 title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
 uid: d45e2c9f-7b3a-704d-918d-9b04749cbccb

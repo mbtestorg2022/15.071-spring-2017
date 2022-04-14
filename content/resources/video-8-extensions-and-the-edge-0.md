@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 8: Extensions and the Edge'
 uid: 7b99d590-e1c2-c048-7c57-840afaa7264e
 video_files:

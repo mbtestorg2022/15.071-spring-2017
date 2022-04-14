@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3 Logistic Regression
+parent_type: CourseSection
 parent_uid: c4464cf4-9ddb-1a4b-c78c-faa6f93b74de
 title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are Cast  (Recitation)'
 uid: cd55cbba-60f6-d5d3-7320-e05f520c4cf1

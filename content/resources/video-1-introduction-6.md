@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: Introduction'
 uid: 1855e853-237e-b0b8-0920-6420a3fa6993
 video_files:

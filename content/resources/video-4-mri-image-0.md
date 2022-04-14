@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 4: MRI Image'
 uid: 1f8fd901-9e89-1e8f-aca4-28f0ff5b4254
 video_files:

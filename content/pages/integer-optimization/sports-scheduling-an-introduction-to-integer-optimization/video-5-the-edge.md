@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
+parent_type: CourseSection
 parent_uid: fbf2b704-9246-466e-f247-36bff248b7c3
 title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
 uid: 2da01ab4-3598-cf28-401d-952436b11f42

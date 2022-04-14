@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 7: The Analytics Edge'
 uid: 95bbe828-34a9-5331-f28b-4b04683e69af
 video_files:

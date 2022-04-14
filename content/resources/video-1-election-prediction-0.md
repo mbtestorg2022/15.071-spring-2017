@@ -1,8 +1,18 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are
+  Cast  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: Election Prediction'
 uid: 703f343c-e72d-e214-b2d4-945ac8d29d50
 video_files:

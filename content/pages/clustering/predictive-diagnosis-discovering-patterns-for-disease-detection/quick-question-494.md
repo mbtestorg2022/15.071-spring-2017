@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
+parent_type: CourseSection
 parent_uid: 0943bd81-1d9c-af9e-92bf-3c7bf9d7b9f2
 title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
 uid: d80c9a9c-1fe8-44a1-ea34-8b733e86c67e

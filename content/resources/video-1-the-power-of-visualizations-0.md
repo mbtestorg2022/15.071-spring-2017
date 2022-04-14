@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.2 Visualizing the World: An Introduction to Visualization'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: The Power of Visualizations'
 uid: 0f1d95d5-5576-58e3-801b-5fa220a433f3
 video_files:

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 8.1 Welcome to Unit 8
+parent_type: CourseSection
 parent_uid: 006d219b-4918-0234-3c9c-2e5dce950c20
 title: 8.1 Welcome to Unit 8
 uid: f7583f86-6400-a48c-ea21-c46483b728b2

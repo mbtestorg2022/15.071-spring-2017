@@ -1,8 +1,68 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
+parent_type: CourseSection
 parent_uid: 4495fb48-3934-3c33-23b2-2ef2104af559
 title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
 uid: a15d356c-50bc-b55a-2cbd-e1c66378ef25
 ---
-<ul class="navigation pagination">     <li id="top_bck_btn"><a href="./resolveuid/1f0b61bba29b5ee75d265ed940cc2d1d">&lt;<span>Video 2: One-Variable Linear Regression</span></a></li>     <li id="flp_btn_1"><a href="./resolveuid/4495fb4839343c3323b22ef2104af559">2.2.1<span>Video 1: Predicting the Quality of Wine</span></a></li>     <li id="flp_btn_2"><a href="./resolveuid/ef446456afa1894f834fa9ae8908c9a2">2.2.2<span>Quick Question</span></a></li>     <li id="flp_btn_3"><a href="./resolveuid/1f0b61bba29b5ee75d265ed940cc2d1d">2.2.3<span>Video 2: One-Variable Linear Regression</span></a></li>     <li id="flp_btn_4" class="button_selected"><a href="./resolveuid/a15d356c50bcb55a2cbde1c66378ef25">2.2.4<span>Quick Question</span></a></li>     <li id="flp_btn_5"><a href="./resolveuid/505bba75964b7b2c74d8ebcee23c8259">2.2.5<span>Video 3: Multiple Linear Regression</span></a></li>     <li id="flp_btn_6"><a href="./resolveuid/d97e0bd054acd9a6df599f1b2e2daf73">2.2.6<span>Quick Question</span></a></li>     <li id="flp_btn_7"><a href="./resolveuid/9f456e81561bed0d7c0a516cd7739d20">2.2.7<span>Video 4: Linear Regression in R</span></a></li>     <li id="flp_btn_8"><a href="./resolveuid/dba3745d05fdfdd2c5ccf0b06194ed26">2.2.8<span>Quick Question</span></a></li>     <li id="flp_btn_9"><a href="./resolveuid/6111ddea9e0270bea0978feb66c8bf60">2.2.9<span>Video 5: Understanding the Model</span></a></li>     <li id="flp_btn_10"><a href="./resolveuid/20a0ee2dc563bbc1243afacac65c21f3">2.2.10<span>Quick Question</span></a></li>     <li id="flp_btn_11"><a href="./resolveuid/1ab830be7abc5468421c996f95e8e252">2.2.11<span>Video 6: Correlation and Multicollinearity</span></a></li>     <li id="flp_btn_12"><a href="./resolveuid/bef58e986ceef682d32abfab033deaf6">2.2.12<span>Quick Question</span></a></li>     <li id="flp_btn_13"><a href="./resolveuid/9b500b6f7f1d17af5de0ab9946895858">2.2.13<span>Video 7: Making Predictions</span></a></li>     <li id="flp_btn_14"><a href="./resolveuid/04ad6920c418b28f12598538cd8136cf">2.2.14<span>Quick Question</span></a></li>     <li id="flp_btn_15"><a href="./resolveuid/df5ef36459d32e3f98ec9d920d6c5e1d">2.2.15<span>Video 8: Comparing the Model to the Experts</span></a></li>     <li id="top_continue_btn"><a href="./resolveuid/505bba75964b7b2c74d8ebcee23c8259">&gt;<span>Video 3: Multiple Linear Regression</span></a></li> </ul> <h2 class="subhead">Quick Question</h2> <div class="self_assessment"><p display_name="Quick Question" url_name="Quick_Question_56">The following figure shows three data points and the best fit line</p> <p display_name="Quick Question" url_name="Quick_Question_57">\( y = 3x + 2 . \)</p> <p display_name="Quick Question" url_name="Quick_Question_58">The x-coordinate, or &quot;x&quot;, is our independent variable and the y-coordinate, or &quot;y&quot;, is our dependent variable.</p> <img display_name="Quick Question" height="500" src="./resolveuid/0c812c318c8939543d901b0f954da36a" url_name="Quick_Question_59" width="500" alt="Figure showing three data points and the best fit line." /> <p display_name="Quick Question" url_name="Quick_Question_60">Please answer the following questions using this figure.</p> <div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_61">What is the baseline prediction?</p> <fieldset><legend class="visually-hidden">Exercise 1</legend> <div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="4" /><input type="hidden" id="Q1_tolerance" value="1%" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S1_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_63"><div class="detailed-solution"><p>Explanation</p> <p>The baseline prediction is the average value of the dependent variable. Since our dependent variable takes values 2, 2, and 8 in our data set, the average is (2+2+8)/3 = 4.</p></div></div> <div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_64">What is the Sum of Squared Errors (SSE) ?</p> <fieldset><legend class="visually-hidden">Exercise 2</legend> <div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="18" /><input type="hidden" id="Q2_tolerance" value="1%" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S2_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S2_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_66"><div class="detailed-solution"><p>Explanation</p> <p>The SSE is computed by summing the squared errors between the actual values and our predictions. For each value of the independent variable (x), our best fit line makes the following predictions:</p> <p>If x = 0, y = 3(0) + 2 = 2,</p> <p>If x = 1, y = 3(1) + 2 = 5.</p> <p>Thus we make an error of 0 for the data point (0,2), an error of 3 for the data point (1,2), and an error of 3 for the data point (1,8). So we have</p> <p>SSE = 0&sup2; + 3&sup2; + 3&sup2; = 18.</p></div></div> <div id="Q3_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_67">What is the Total Sum of Squares (SST) ?</p> <fieldset><legend class="visually-hidden">Exercise 3</legend> <div class="choice"><label id="Q3_label"><span id="Q3_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q3_input" value="" onkeypress="numericTypedOrDropDownSelected(3)" class="problem_text_input" /><input type="hidden" id="Q3_ans" value="24" /><input type="hidden" id="Q3_tolerance" value="1%" /><span id="Q3_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S3_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S3_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_69"><div class="detailed-solution"><p>Explanation</p> <p>The SST is computed by summing the squared errors between the actual values and the baseline prediction. From the first question, we computed the baseline prediction to be 4. Thus the SST is:</p> <p>SST = (2 - 4)&sup2; + (2 - 4)&sup2; + (8 - 4)&sup2; = 24.</p></div></div> <div id="Q4_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_70">What is the R&sup2; of the model?</p> <fieldset><legend class="visually-hidden">Exercise 4</legend> <div class="choice"><label id="Q4_label"><span id="Q4_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q4_input" value="" onkeypress="numericTypedOrDropDownSelected(4)" class="problem_text_input" /><input type="hidden" id="Q4_ans" value="0.25" /><input type="hidden" id="Q4_tolerance" value="1%" /><span id="Q4_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S4_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S4_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_72"><div class="detailed-solution"><p>Explanation</p> <p>The R&sup2; formula is:</p> <p>R&sup2; = 1 - SSE/SST</p> <p>Thus using our answers to the previous questions, we have that</p> <p>R&sup2; = 1 - 18/24 = 0.25.</p></div></div> <div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical', 3: 'numerical', 4: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical', 3: 'numerical', 4: 'numerical'}, 1, [1, 2, 3, 4])" class="problem_mo_button">Show Answer</button></div></div> <ul class="navigation progress">     <li id="bck_btn"><a href="./resolveuid/1f0b61bba29b5ee75d265ed940cc2d1d">Back<span>Video 2: One-Variable Linear Regression</span></a></li>     <li id="continue_btn"><a href="./resolveuid/505bba75964b7b2c74d8ebcee23c8259">Continue<span>Video 3: Multiple Linear Regression</span></a></li> </ul>
+
+*   [\<Video 2: One-Variable Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-2-one-variable-linear-regression)
+*   [2.2.1Video 1: Predicting the Quality of Wine]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression)
+*   [2.2.2Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-46)
+*   [2.2.3Video 2: One-Variable Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-2-one-variable-linear-regression)
+*   [2.2.4Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-54)
+*   [2.2.5Video 3: Multiple Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-3-multiple-linear-regression)
+*   [2.2.6Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-73)
+*   [2.2.7Video 4: Linear Regression in R]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-4-linear-regression-in-r)
+*   [2.2.8Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-78)
+*   [2.2.9Video 5: Understanding the Model]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-5-understanding-the-model)
+*   [2.2.10Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-88)
+*   [2.2.11Video 6: Correlation and Multicollinearity]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-6-correlation-and-multicollinearity)
+*   [2.2.12Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-96)
+*   [2.2.13Video 7: Making Predictions]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-7-making-predictions)
+*   [2.2.14Quick Question]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/quick-question-101)
+*   [2.2.15Video 8: Comparing the Model to the Experts]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-8-comparing-the-model-to-the-experts)
+*   [\>Video 3: Multiple Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-3-multiple-linear-regression)
+
+Quick Question
+--------------
+
+The following figure shows three data points and the best fit line
+
+\\( y = 3x + 2 . \\)
+
+The x-coordinate, or "x", is our independent variable and the y-coordinate, or "y", is our dependent variable.
+
+![Figure showing three data points and the best fit line.]({{< resource_file 0c812c31-8c89-3954-3d90-1b0f954da36a >}})
+
+Please answer the following questions using this figure.
+
+What is the baseline prediction?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+What is the Sum of Squared Errors (SSE) ?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+What is the Total Sum of Squares (SST) ?
+
+Exercise 3
+
+&nbsp;Numerical Response&nbsp;
+
+What is the R² of the model?
+
+Exercise 4
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 2: One-Variable Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-2-one-variable-linear-regression)
+*   [ContinueVideo 3: Multiple Linear Regression]({{< baseurl >}}/pages/linear-regression/the-statistical-sommelier-an-introduction-to-linear-regression/video-3-multiple-linear-regression)

@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Lecture and Recitation Notes
 uid: 6d991d2d-9834-a247-946a-f6ed255c2dcf
 ---

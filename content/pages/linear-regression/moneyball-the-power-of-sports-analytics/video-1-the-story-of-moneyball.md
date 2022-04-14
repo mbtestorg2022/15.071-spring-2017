@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '2.3 Moneyball: The Power of Sports Analytics '
+parent_type: CourseSection
 parent_uid: fcb6a63f-4737-920a-80bf-15309d3ee7b6
 title: '2.3 Moneyball: The Power of Sports Analytics '
 uid: 9a181e98-9a2d-c6e2-1d6b-813dfdbf8d9f

@@ -8,6 +8,10 @@ image_metadata:
   credit: ''
   image-alt: Plot of receiver operator characteristic curve false vs. true positive
     rates.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '3.2 Modeling the Expert: An Introduction to Logistic Regression'
+parent_type: CourseSection
 parent_uid: d9817f81-c4ac-257a-ed44-548eaa714059
 resourcetype: Image
 title: ROC-Thresholds.png

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 5 Text Analytics
+parent_type: CourseSection
 parent_uid: 5847ad87-9afe-cf3e-9b93-c20cffe87acf
 title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
 uid: 0c9bd7c2-6f88-e1f3-72bb-45bfb1705096

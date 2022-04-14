@@ -1,15 +1,48 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
+parent_type: CourseSection
 parent_uid: b091b1be-c85a-85e0-60a8-3b7905c9dcce
 title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
 uid: 2f132e05-7445-9a6a-8530-4dc1f0cd7c5c
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/9b460c896936605488ea504e144b78ff"><<span>Video 5: Hierarchical Clustering</span></a></li><li id="flp_btn_1"><a href="./resolveuid/b091b1bec85a85e060a83b7905c9dcce">6.2.1<span>Video 1: Introduction to Netflix</span></a></li><li id="flp_btn_2"><a href="./resolveuid/0929460cb5ed43dfdb0ecacb845ffa3f">6.2.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/ddc4091d7aa51a47edbc199cc93c3fb8">6.2.3<span>Video 2: Recommendation Systems</span></a></li><li id="flp_btn_4"><a href="./resolveuid/8f7d9b63f06be06b22b49df8cb1010ed">6.2.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/68624ffad0f7a8c01f23c4a6a20422bb">6.2.5<span>Video 3: Movie Data and Clustering</span></a></li><li id="flp_btn_6"><a href="./resolveuid/b7314818ce6b5cbcb1a5e7bedcb314f0">6.2.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/a5ab66993ed80a0f758b18debb6e10a5">6.2.7<span>Video 4: Computing Distances</span></a></li><li id="flp_btn_8"><a href="./resolveuid/066f79ddb024942435450a95a9fc60d8">6.2.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/9b460c896936605488ea504e144b78ff">6.2.9<span>Video 5: Hierarchical Clustering</span></a></li><li id="flp_btn_10" class="button_selected"><a href="./resolveuid/2f132e0574459a6a85304dc1f0cd7c5c">6.2.10<span>Quick Question</span></a></li><li id="flp_btn_11"><a href="./resolveuid/97456de3089198f1c51aa74e3d11930c">6.2.11<span>Video 6: Getting the Data</span></a></li><li id="flp_btn_12"><a href="./resolveuid/47a1cfac748d6647732ef8b91e90cc4f">6.2.12<span>Quick Question</span></a></li><li id="flp_btn_13"><a href="./resolveuid/c0ef063dc722b998a530922a135bd19e">6.2.13<span>Video 7: Hierarchical Clustering in R</span></a></li><li id="flp_btn_14"><a href="./resolveuid/4d3cfab69136623b888a5451d2fad159">6.2.14<span>Quick Question</span></a></li><li id="flp_btn_15"><a href="./resolveuid/9e0e5a2571bbafdaded101bdcdce7158">6.2.15<span>Video 8: The Analytics Edge of Recommendation Systems</span></a></li><li id="top_continue_btn"><a href="./resolveuid/97456de3089198f1c51aa74e3d11930c">><span>Video 6: Getting the Data</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<p display_name="Quick Question" url_name="Quick_Question_460">Suppose you are running the Hierarchical clustering algorithm with 212 observations.</p>
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_461">How many clusters will there be at the start of the algorithm?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="212" /><input type="hidden" id="Q1_tolerance" value="0" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_463">How many clusters will there be at the end of the algorithm?</p><fieldset><legend class="visually-hidden">Exercise 2</legend><div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="1" /><input type="hidden" id="Q2_tolerance" value="0" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S2_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_465">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>The Hierarchical clustering algorithm always starts with each data point in its own cluster, and ends with all data points in the same cluster. So there will be 212 clusters at the beginning of the algorithm, and 1 cluster at the end of the algorithm.</p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/9b460c896936605488ea504e144b78ff">Back<span>Video 5: Hierarchical Clustering</span></a></li><li id="continue_btn"><a href="./resolveuid/97456de3089198f1c51aa74e3d11930c">Continue<span>Video 6: Getting the Data</span></a></li></ul>
+
+*   [\<Video 5: Hierarchical Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-5-hierarchical-clustering)
+*   [6.2.1Video 1: Introduction to Netflix]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering)
+*   [6.2.2Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-433)
+*   [6.2.3Video 2: Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-2-recommendation-systems)
+*   [6.2.4Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-438)
+*   [6.2.5Video 3: Movie Data and Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-3-movie-data-and-clustering)
+*   [6.2.6Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-446)
+*   [6.2.7Video 4: Computing Distances]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-4-computing-distances)
+*   [6.2.8Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-451)
+*   [6.2.9Video 5: Hierarchical Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-5-hierarchical-clustering)
+*   [6.2.10Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-458)
+*   [6.2.11Video 6: Getting the Data]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-6-getting-the-data)
+*   [6.2.12Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-466)
+*   [6.2.13Video 7: Hierarchical Clustering in R]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-7-hierarchical-clustering-in-r)
+*   [6.2.14Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-476)
+*   [6.2.15Video 8: The Analytics Edge of Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-8-the-analytics-edge-of-recommendation-systems)
+*   [\>Video 6: Getting the Data]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-6-getting-the-data)
+
+Quick Question
+--------------
+
+Suppose you are running the Hierarchical clustering algorithm with 212 observations.
+
+How many clusters will there be at the start of the algorithm?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+How many clusters will there be at the end of the algorithm?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 5: Hierarchical Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-5-hierarchical-clustering)
+*   [ContinueVideo 6: Getting the Data]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-6-getting-the-data)

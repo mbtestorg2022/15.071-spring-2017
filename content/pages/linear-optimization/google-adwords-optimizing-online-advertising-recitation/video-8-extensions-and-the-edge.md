@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
+parent_type: CourseSection
 parent_uid: 696dd6e4-42cc-1fc4-7c9f-2924e2edfb26
 title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
 uid: 3083aeae-6367-2e76-61a3-34ffc021896d

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
+parent_type: CourseSection
 parent_uid: 4495fb48-3934-3c33-23b2-2ef2104af559
 title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
 uid: d97e0bd0-54ac-d9a6-df59-9f1b2e2daf73

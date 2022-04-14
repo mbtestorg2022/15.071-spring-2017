@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 2.4 Playing Moneyball in the NBA  (Recitation)
+parent_type: CourseSection
 parent_uid: 3d4f0b49-ab63-6ab4-200c-8f27a219c0dc
 title: 2.4 Playing Moneyball in the NBA  (Recitation)
 uid: 5ac291e9-f7cb-6b8e-19b1-740753e96bf6

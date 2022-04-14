@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: 3.1 Welcome to Unit 3
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: Welcome to Unit 3
 uid: 25d9d3fa-e3f1-98b7-0016-c1c91d00ac95
 video_files:

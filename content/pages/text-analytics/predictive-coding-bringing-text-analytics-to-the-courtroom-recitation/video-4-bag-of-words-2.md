@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recitation)'
+parent_type: CourseSection
 parent_uid: d4b1a3b9-42ed-98d1-94fe-b3777ba22595
 title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recitation)'
 uid: 8a96d7cd-01b9-50c8-be68-959be293ab00

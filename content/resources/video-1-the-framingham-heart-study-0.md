@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '3.3 The Framingham Heart Study: Evaluating Risk Factors to Save Lives '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: The Framingham Heart Study'
 uid: 28389d43-0400-c45b-2e93-4cf437d8f4f5
 video_files:

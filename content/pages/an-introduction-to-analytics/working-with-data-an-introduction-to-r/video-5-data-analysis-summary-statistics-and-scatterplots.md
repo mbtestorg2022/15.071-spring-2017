@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '1.3 Working with Data: An Introduction to R '
+parent_type: CourseSection
 parent_uid: 1ac933da-13d1-3dfa-2e38-03abf2d6971f
 title: '1.3 Working with Data: An Introduction to R '
 uid: eeb22344-b682-07d4-d7b6-e8fcc1cd06b6

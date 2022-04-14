@@ -7,6 +7,10 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Confusion matrix used by eHarmony to predict compatibility between users.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '9.3 eHarmony: Maximizing the Probability of Love '
+parent_type: CourseSection
 parent_uid: ff041fd1-d8ec-5719-0e25-cb482bdb9cd2
 resourcetype: Image
 title: eHarmonyConfusion.jpg

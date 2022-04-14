@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 3: Pre-Processing'
 uid: 4e41dd76-b35c-6d67-c10d-2253c4352758
 video_files:

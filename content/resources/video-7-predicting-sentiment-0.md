@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 7: Predicting Sentiment'
 uid: dd79612c-793a-de86-be8b-59116072ba4c
 video_files:

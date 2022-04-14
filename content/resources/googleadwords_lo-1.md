@@ -3,6 +3,10 @@ content_type: resource
 description: 'Resource:'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/15-071-the-analytics-edge-spring-2017/73c6b01a3e2b2adc681abcb6d0aa1088_GoogleAdWords_LO.xlsx
 file_type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+learning_resource_types: []
+ocw_type: OCWFile
+parent_title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
+parent_type: CourseSection
 parent_uid: ec76b4ff-6780-4c69-3ea4-a3a2695b4d2d
 resourcetype: Other
 title: GoogleAdWords_LO.xlsx

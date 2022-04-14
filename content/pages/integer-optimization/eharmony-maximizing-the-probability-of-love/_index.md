@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 9 Integer Optimization
+parent_type: CourseSection
 parent_uid: db42b40a-d705-f431-a7e2-3a1d11cec341
 title: '9.3 eHarmony: Maximizing the Probability of Love '
 uid: 11e612d8-9845-c6c9-6a73-07cebaa24191

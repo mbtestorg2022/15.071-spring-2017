@@ -8,6 +8,11 @@ image_metadata:
   credit: ''
   image-alt: Map of the United States with Illinois in red and pointing to location
     of Chicago.
+learning_resource_types:
+- Assignments
+ocw_type: OCWImage
+parent_title: 1.5 Assignment 1
+parent_type: CourseSection
 parent_uid: 0af41c2f-ca68-84fa-b36c-0a31155319b9
 resourcetype: Image
 title: ChicagoMap.png

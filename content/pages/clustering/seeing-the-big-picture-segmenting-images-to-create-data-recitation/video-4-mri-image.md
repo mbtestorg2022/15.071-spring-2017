@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitation)'
+parent_type: CourseSection
 parent_uid: c6d206cc-fb15-28f6-048f-29e817450da7
 title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitation)'
 uid: 05a0aaf9-347f-ba27-6e3a-f7cddfcf258b

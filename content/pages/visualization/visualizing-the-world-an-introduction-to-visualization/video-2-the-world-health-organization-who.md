@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.2 Visualizing the World: An Introduction to Visualization'
+parent_type: CourseSection
 parent_uid: 274ac6b9-daf6-cd65-874e-c643ab327953
 title: '7.2 Visualizing the World: An Introduction to Visualization'
 uid: c0e12457-eea5-7533-f2df-4a7f420a5b38

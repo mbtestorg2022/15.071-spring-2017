@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1 An Introduction to Analytics
+parent_type: CourseSection
 parent_uid: bebdc8ab-5b1f-9682-d6b7-62b671b5cf25
 title: '1.2 The Analytics Edge: Intelligence, Happiness, and Health  (Lecture Sequence)'
 uid: 9fb45936-9f44-df97-dad3-89bb5d1aa82c

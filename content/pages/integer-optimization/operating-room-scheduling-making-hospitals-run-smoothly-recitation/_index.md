@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 9 Integer Optimization
+parent_type: CourseSection
 parent_uid: db42b40a-d705-f431-a7e2-3a1d11cec341
 title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitation)'
 uid: 1ebaa9f0-a112-c161-92d9-1227cd28b727

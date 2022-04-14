@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '9.3 eHarmony: Maximizing the Probability of Love '
+parent_type: CourseSection
 parent_uid: 11e612d8-9845-c6c9-6a73-07cebaa24191
 title: '9.3 eHarmony: Maximizing the Probability of Love '
 uid: 77d81d8b-92b7-acee-0e6b-7bc04c4a9533

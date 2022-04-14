@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Unit Index
 uid: 883b00d7-5d4b-ac8a-589c-8fb34101f032
 ---

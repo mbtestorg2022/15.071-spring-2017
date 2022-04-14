@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 6 Clustering
+parent_type: CourseSection
 parent_uid: 6e343503-94a0-f948-51f4-8f324b5f657f
 title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
 uid: b091b1be-c85a-85e0-60a8-3b7905c9dcce

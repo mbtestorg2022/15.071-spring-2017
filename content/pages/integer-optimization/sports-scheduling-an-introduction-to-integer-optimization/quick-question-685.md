@@ -1,8 +1,40 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
+parent_type: CourseSection
 parent_uid: fbf2b704-9246-466e-f247-36bff248b7c3
 title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
 uid: 15f4c72a-4356-c958-e48e-1d8430f4b6f0
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/611ff2e225d312915c1705e9cd35ede7">&lt;<span>Video 3: Solving the Problem</span></a></li><li id="flp_btn_1"><a href="./resolveuid/fbf2b7049246466ef24736bff248b7c3">9.2.1<span>Video 1: Introduction</span></a></li><li id="flp_btn_2"><a href="./resolveuid/d7c69cd70f13ee077976805c01b4a9e2">9.2.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/30848359f3cc9abb7ae995a7ade4fd97">9.2.3<span>Video 2: The Optimization Problem</span></a></li><li id="flp_btn_4"><a href="./resolveuid/2abee273d5135397a129e7c58dc0c47a">9.2.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/611ff2e225d312915c1705e9cd35ede7">9.2.5<span>Video 3: Solving the Problem</span></a></li><li id="flp_btn_6" class="button_selected"><a href="./resolveuid/15f4c72a4356c958e48e1d8430f4b6f0">9.2.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/209100b38ec9d10b5925656d460ca2ad">9.2.7<span>Video 4: Logical Constraints</span></a></li><li id="flp_btn_8"><a href="./resolveuid/bc55ff56182eb4efaaab2b01313266a2">9.2.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/2da01ab43598cf28401d952436b11f42">9.2.9<span>Video 5: The Edge</span></a></li><li id="top_continue_btn"><a href="./resolveuid/209100b38ec9d10b5925656d460ca2ad">&gt;<span>Video 4: Logical Constraints</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment"><div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_687">Suppose we had two more teams in our tournament (for a total of 6 teams). Each division would have 3 teams. So each team plays <strong>two </strong>teams twice (the teams in their division), and each team plays three teams once (the teams in the other division). This means that the tournament will last for 7 weeks. How many decision variables would we have?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="105" /><input type="hidden" id="Q1_tolerance" value="0" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer">&nbsp;</p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_689"><div class="detailed-solution"><p>Explanation</p> <p>We would have 105 decision variables because we have 7 weeks, and 15 different pairs of teams.</p></div></div><div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_690">How many constraints would we have? Don't include the constraints that force the variables to be binary when counting the constraints here. (HINT: We would have 6 division constraints, since each pair in each division needs to play twice.)</p><fieldset><legend class="visually-hidden">Exercise 2</legend><div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="57" /><input type="hidden" id="Q2_tolerance" value="0" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S2_ans" tabindex="-1" class="problem_answer">&nbsp;</p></fieldset></div><div id="S2_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_692"><div class="detailed-solution"><p>Explanation</p> <p>We would have 6 division constraints, 9 non-division constraints (each of the three teams in one division has to play each of the three teams in the other division), and 42 constraints to make sure each team only plays one team each week (6 teams times 7 weeks).</p></div></div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical'}, 1, [1, 2])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/611ff2e225d312915c1705e9cd35ede7">Back<span>Video 3: Solving the Problem</span></a></li><li id="continue_btn"><a href="./resolveuid/209100b38ec9d10b5925656d460ca2ad">Continue<span>Video 4: Logical Constraints</span></a></li></ul>
+
+*   [\<Video 3: Solving the Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-3-solving-the-problem-2)
+*   [9.2.1Video 1: Introduction]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization)
+*   [9.2.2Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-665)
+*   [9.2.3Video 2: The Optimization Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-2-the-optimization-problem)
+*   [9.2.4Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-673)
+*   [9.2.5Video 3: Solving the Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-3-solving-the-problem-2)
+*   [9.2.6Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-685)
+*   [9.2.7Video 4: Logical Constraints]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-4-logical-constraints)
+*   [9.2.8Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-693)
+*   [9.2.9Video 5: The Edge]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-5-the-edge)
+*   [\>Video 4: Logical Constraints]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-4-logical-constraints)
+
+Quick Question
+--------------
+
+Suppose we had two more teams in our tournament (for a total of 6 teams). Each division would have 3 teams. So each team plays **two** teams twice (the teams in their division), and each team plays three teams once (the teams in the other division). This means that the tournament will last for 7 weeks. How many decision variables would we have?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+How many constraints would we have? Don't include the constraints that force the variables to be binary when counting the constraints here. (HINT: We would have 6 division constraints, since each pair in each division needs to play twice.)
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 3: Solving the Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-3-solving-the-problem-2)
+*   [ContinueVideo 4: Logical Constraints]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-4-logical-constraints)

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
 parent_uid: 0af39afb-aff0-a226-a397-da1206ecd712
 title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
 uid: 8d5ffa6b-d6d6-8dfa-e0e2-c923557e22af

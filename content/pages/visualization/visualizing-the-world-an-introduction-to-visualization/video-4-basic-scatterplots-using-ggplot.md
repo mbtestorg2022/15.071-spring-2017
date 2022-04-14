@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.2 Visualizing the World: An Introduction to Visualization'
+parent_type: CourseSection
 parent_uid: 274ac6b9-daf6-cd65-874e-c643ab327953
 title: '7.2 Visualizing the World: An Introduction to Visualization'
 uid: bcd276c5-4387-e04d-4149-dfe97b763b3f
@@ -33,7 +36,9 @@ Colors and shapes in R
 
 If you want to see all of the available colors in R, type in your R console:
 
+```
 colors()
+```
 
 All of the available shapes are described in the following image:
 

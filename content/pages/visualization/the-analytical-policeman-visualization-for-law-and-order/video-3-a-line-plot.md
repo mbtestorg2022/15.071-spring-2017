@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
 parent_uid: 716f78f6-1fe6-c5f4-7370-d7a3c4127827
 title: '7.3 The Analytical Policeman: Visualization for Law and Order'
 uid: 1bd0d7e9-c5ce-0101-823b-0faa796ad873

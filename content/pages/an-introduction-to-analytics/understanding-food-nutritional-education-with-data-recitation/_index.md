@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 1 An Introduction to Analytics
+parent_type: CourseSection
 parent_uid: bebdc8ab-5b1f-9682-d6b7-62b671b5cf25
 title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
 uid: 7ae5f9ab-ee30-803e-522b-c737bfb5e185

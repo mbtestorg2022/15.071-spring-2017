@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '4.2 Judge, Jury, and Classifier: An Introduction to Trees '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 4: CART in R'
 uid: 13d0a88f-2d9e-1869-793a-8c4b8af412c5
 video_files:

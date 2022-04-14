@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitation)'
+parent_type: CourseSection
 parent_uid: 1ebaa9f0-a112-c161-92d9-1227cd28b727
 title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitation)'
 uid: 6e8bdbce-3ea9-e644-0e2b-66d90a657d47

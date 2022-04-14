@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
+parent_type: CourseSection
 parent_uid: aea3bc9c-07f7-3648-65c4-6fec93dd8515
 title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
 uid: 5e8b108b-e5fd-9320-8fe7-cd8bd5420c69

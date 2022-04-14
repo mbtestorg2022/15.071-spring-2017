@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Recitation)'
+parent_type: CourseSection
 parent_uid: aef27920-c51c-efd1-88ed-937539251bd9
 title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Recitation)'
 uid: aad83d53-78a1-ef15-e27f-e7684e1f8761

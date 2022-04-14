@@ -1,14 +1,36 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
 parent_uid: 7a59278a-134c-5085-244c-381fc6090890
 title: '8.3 Radiation Therapy: An Application of Linear Optimization '
 uid: 55edcce9-e44e-b3b2-09ea-19a4efdc913a
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/45f1617526496ba1fed2d4528a0cc423"><<span>Video 3: Solving the Problem</span></a></li><li id="flp_btn_1"><a href="./resolveuid/7a59278a134c5085244c381fc6090890">8.3.1<span>Video 1: Introduction</span></a></li><li id="flp_btn_2"><a href="./resolveuid/12e6da5699311c837bce67f78b499ef3">8.3.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/98a5789ba2031300ac3e513ddaf88866">8.3.3<span>Video 2: An Optimization Problem</span></a></li><li id="flp_btn_4"><a href="./resolveuid/79d912628a0096659e540a5ff3802ab3">8.3.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/45f1617526496ba1fed2d4528a0cc423">8.3.5<span>Video 3: Solving the Problem</span></a></li><li id="flp_btn_6" class="button_selected"><a href="./resolveuid/55edcce9e44eb3b209ea19a4efdc913a">8.3.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/2fe86f88782c20080bd1b70037ba3db3">8.3.7<span>Video 4: A Head and Neck Case</span></a></li><li id="flp_btn_8"><a href="./resolveuid/d50911ab0a07b12c10732226ad167e5f">8.3.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/a10ced6c1f0f3ddcaa30efb14db63365">8.3.9<span>Video 5: Sensitivity Analysis</span></a></li><li id="flp_btn_10"><a href="./resolveuid/2194bcb24c12fa9a11f3457666bd1bee">8.3.10<span>Quick Question</span></a></li><li id="flp_btn_11"><a href="./resolveuid/eaf609ccc68c36a2cb165b923543a1c7">8.3.11<span>Video 6: The Analytics Edge</span></a></li><li id="top_continue_btn"><a href="./resolveuid/2fe86f88782c20080bd1b70037ba3db3">><span>Video 4: A Head and Neck Case</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_645">In our optimal solution, we are giving the maximum allowed dose to the spinal cord (5). If we were to relax this, how much could we decrease the objective? Change the right-hand-side (RHS) of the spinal cord constraint to 6, and re-solve the model. By how much did we decrease the objective? (Hint: the previous objective value was 22.75)</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="0.583333" /><input type="hidden" id="Q1_tolerance" value="0.02" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_647">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>If you change the RHS of the spinal cord constraint to 6 and re-solve the model (Tools-&gt;Solver, then hit solve) the new objective is 22.1666667. So we decreased the objective by 0.58333333. </p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/45f1617526496ba1fed2d4528a0cc423">Back<span>Video 3: Solving the Problem</span></a></li><li id="continue_btn"><a href="./resolveuid/2fe86f88782c20080bd1b70037ba3db3">Continue<span>Video 4: A Head and Neck Case</span></a></li></ul>
+
+*   [\<Video 3: Solving the Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-3-solving-the-problem)
+*   [8.3.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
+*   [8.3.2Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-630)
+*   [8.3.3Video 2: An Optimization Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-2-an-optimization-problem)
+*   [8.3.4Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-635)
+*   [8.3.5Video 3: Solving the Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-3-solving-the-problem)
+*   [8.3.6Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-643)
+*   [8.3.7Video 4: A Head and Neck Case]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-4-a-head-and-neck-case)
+*   [8.3.8Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-648)
+*   [8.3.9Video 5: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-5-sensitivity-analysis)
+*   [8.3.10Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-654)
+*   [8.3.11Video 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)
+*   [\>Video 4: A Head and Neck Case]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-4-a-head-and-neck-case)
+
+Quick Question
+--------------
+
+In our optimal solution, we are giving the maximum allowed dose to the spinal cord (5). If we were to relax this, how much could we decrease the objective? Change the right-hand-side (RHS) of the spinal cord constraint to 6, and re-solve the model. By how much did we decrease the objective? (Hint: the previous objective value was 22.75)
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 3: Solving the Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-3-solving-the-problem)
+*   [ContinueVideo 4: A Head and Neck Case]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-4-a-head-and-neck-case)

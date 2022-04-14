@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '6.4 Seeing the Big Picture: Segmenting Images to Create Data  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 7: Comparing Methods'
 uid: 7d9d982f-fc1f-4c98-ad85-839fd33007f7
 video_files:

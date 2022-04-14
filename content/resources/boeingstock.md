@@ -3,6 +3,11 @@ content_type: resource
 description: 'Resource:'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/15-071-the-analytics-edge-spring-2017/550f7976b38aea3b061072d505e139f1_BoeingStock.csv
 file_type: text/comma-separated-values
+learning_resource_types:
+- Assignments
+ocw_type: OCWFile
+parent_title: 1.5 Assignment 1
+parent_type: CourseSection
 parent_uid: 89ce47d2-7edc-dd9b-8a8c-be641a59b520
 resourcetype: Other
 title: BoeingStock.csv

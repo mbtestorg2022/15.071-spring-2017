@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.3 Man vs. Machine: How IBM Built a Jeopardy Champion '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: The Results'
 uid: 5a34c0c5-553d-c921-0771-46e6ad8e892e
 video_files:

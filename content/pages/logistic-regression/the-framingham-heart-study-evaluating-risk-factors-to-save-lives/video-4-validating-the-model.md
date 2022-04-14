@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '3.3 The Framingham Heart Study: Evaluating Risk Factors to Save Lives '
+parent_type: CourseSection
 parent_uid: 58bb6065-48df-9c3a-8c14-8318a4e0e5c7
 title: '3.3 The Framingham Heart Study: Evaluating Risk Factors to Save Lives '
 uid: 4f9a84c3-4f7f-3867-891d-be7fae75a149

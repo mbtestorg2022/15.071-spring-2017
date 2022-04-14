@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 3 Logistic Regression
+parent_type: CourseSection
 parent_uid: c4464cf4-9ddb-1a4b-c78c-faa6f93b74de
 title: '3.3 The Framingham Heart Study: Evaluating Risk Factors to Save Lives '
 uid: 58bb6065-48df-9c3a-8c14-8318a4e0e5c7

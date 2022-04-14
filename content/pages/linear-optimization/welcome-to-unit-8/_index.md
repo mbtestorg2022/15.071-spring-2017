@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 8 Linear Optimization
+parent_type: CourseSection
 parent_uid: daafaa58-867c-9765-f1c4-c60a9c0ed426
 title: 8.1 Welcome to Unit 8
 uid: 006d219b-4918-0234-3c9c-2e5dce950c20

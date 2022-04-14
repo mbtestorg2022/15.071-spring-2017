@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '2.3 Moneyball: The Power of Sports Analytics '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 3: Predicting Runs'
 uid: fa46e82d-615a-31ee-c889-6b6e74afc1f5
 video_files:

@@ -7,6 +7,11 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Example of a gerrymandering grid in which Blue wins.
+learning_resource_types:
+- Assignments
+ocw_type: OCWImage
+parent_title: 9.5 Assignment 9
+parent_type: CourseSection
 parent_uid: 1ab3f4de-f050-7a6b-6327-b8e7dfa4fb69
 resourcetype: Image
 title: gerrymandering_bluewins.png

@@ -1,8 +1,18 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '1.2 The Analytics Edge: Intelligence, Happiness, and Health  (Lecture
+  Sequence)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: Introduction to The Analytics Edge'
 uid: 06385c34-bf64-201c-1d6b-4f00929b15b1
 video_files:

@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: The Problem'
 uid: cb1ec5c5-dfc1-0fdb-760d-4d93a5d37daa
 video_files:

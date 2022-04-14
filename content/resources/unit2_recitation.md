@@ -3,6 +3,10 @@ content_type: resource
 description: 'Resource:'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/15-071-the-analytics-edge-spring-2017/d568d82169b3ab478e6ae60f01b9b1d8_Unit2_Recitation.R
 file_type: application/octet-stream
+learning_resource_types: []
+ocw_type: OCWFile
+parent_title: 2.4 Playing Moneyball in the NBA  (Recitation)
+parent_type: CourseSection
 parent_uid: 23ccd624-abaa-0c05-9f5a-54029d4225b6
 resourcetype: Other
 title: Unit2_Recitation.R

@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 8 Linear Optimization
 uid: daafaa58-867c-9765-f1c4-c60a9c0ed426
 ---

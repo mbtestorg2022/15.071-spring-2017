@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
 parent_uid: 7a59278a-134c-5085-244c-381fc6090890
 title: '8.3 Radiation Therapy: An Application of Linear Optimization '
 uid: a10ced6c-1f0f-3ddc-aa30-efb14db63365

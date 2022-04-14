@@ -1,22 +1,48 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
 parent_uid: 7a59278a-134c-5085-244c-381fc6090890
 title: '8.3 Radiation Therapy: An Application of Linear Optimization '
 uid: 2194bcb2-4c12-fa9a-11f3-457666bd1bee
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/a10ced6c1f0f3ddcaa30efb14db63365"><<span>Video 5: Sensitivity Analysis</span></a></li><li id="flp_btn_1"><a href="./resolveuid/7a59278a134c5085244c381fc6090890">8.3.1<span>Video 1: Introduction</span></a></li><li id="flp_btn_2"><a href="./resolveuid/12e6da5699311c837bce67f78b499ef3">8.3.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/98a5789ba2031300ac3e513ddaf88866">8.3.3<span>Video 2: An Optimization Problem</span></a></li><li id="flp_btn_4"><a href="./resolveuid/79d912628a0096659e540a5ff3802ab3">8.3.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/45f1617526496ba1fed2d4528a0cc423">8.3.5<span>Video 3: Solving the Problem</span></a></li><li id="flp_btn_6"><a href="./resolveuid/55edcce9e44eb3b209ea19a4efdc913a">8.3.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/2fe86f88782c20080bd1b70037ba3db3">8.3.7<span>Video 4: A Head and Neck Case</span></a></li><li id="flp_btn_8"><a href="./resolveuid/d50911ab0a07b12c10732226ad167e5f">8.3.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/a10ced6c1f0f3ddcaa30efb14db63365">8.3.9<span>Video 5: Sensitivity Analysis</span></a></li><li id="flp_btn_10" class="button_selected"><a href="./resolveuid/2194bcb24c12fa9a11f3457666bd1bee">8.3.10<span>Quick Question</span></a></li><li id="flp_btn_11"><a href="./resolveuid/eaf609ccc68c36a2cb165b923543a1c7">8.3.11<span>Video 6: The Analytics Edge</span></a></li><li id="top_continue_btn"><a href="./resolveuid/eaf609ccc68c36a2cb165b923543a1c7">><span>Video 6: The Analytics Edge</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<p display_name="Quick Question" url_name="Quick_Question_656">In your spreadsheet from Video 3, make sure that you have solved the original small example problem (change the spinal cord limit back to 5 and re-solve if you have changed it, and make sure the objective value is 22.75). </p>
-<p display_name="Quick Question" url_name="Quick_Question_657">Now, change the weight for the spinal cord term in the objective to 5. </p>
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_658">Without re-solving, what does the objective value of the current solution change to?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="42.75" /><input type="hidden" id="Q1_tolerance" value="1%" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_660">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>The term SUMPRODUCT(B14:B19;F5:F10) in the objective (corresponding to Voxel 5) should now be 5*SUMPRODUCT(B14:B19;F5:F10). This changes the objective value to 42.75.</p>
-</div>
-</div><div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_661">Now re-solve the model. What does the objective change to?</p><fieldset><legend class="visually-hidden">Exercise 2</legend><div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="25.6666667" /><input type="hidden" id="Q2_tolerance" value="1%" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S2_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S2_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_663">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>You can resolve the model by going to Solver, and just hitting Solve. The new optimal objective function value is 25.666667.</p>
-</div>
-</div><p display_name="Quick Question" url_name="Quick_Question_664">Notice how we are now giving a smaller dose to the spinal cord!</p>
-<div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical'}, 1, [1, 2])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/a10ced6c1f0f3ddcaa30efb14db63365">Back<span>Video 5: Sensitivity Analysis</span></a></li><li id="continue_btn"><a href="./resolveuid/eaf609ccc68c36a2cb165b923543a1c7">Continue<span>Video 6: The Analytics Edge</span></a></li></ul>
+
+*   [\<Video 5: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-5-sensitivity-analysis)
+*   [8.3.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
+*   [8.3.2Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-630)
+*   [8.3.3Video 2: An Optimization Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-2-an-optimization-problem)
+*   [8.3.4Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-635)
+*   [8.3.5Video 3: Solving the Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-3-solving-the-problem)
+*   [8.3.6Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-643)
+*   [8.3.7Video 4: A Head and Neck Case]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-4-a-head-and-neck-case)
+*   [8.3.8Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-648)
+*   [8.3.9Video 5: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-5-sensitivity-analysis)
+*   [8.3.10Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-654)
+*   [8.3.11Video 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)
+*   [\>Video 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)
+
+Quick Question
+--------------
+
+In your spreadsheet from Video 3, make sure that you have solved the original small example problem (change the spinal cord limit back to 5 and re-solve if you have changed it, and make sure the objective value is 22.75).
+
+Now, change the weight for the spinal cord term in the objective to 5.
+
+Without re-solving, what does the objective value of the current solution change to?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+Now re-solve the model. What does the objective change to?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+Notice how we are now giving a smaller dose to the spinal cord!
+
+*   [BackVideo 5: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-5-sensitivity-analysis)
+*   [ContinueVideo 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)

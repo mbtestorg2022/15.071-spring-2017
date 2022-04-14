@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 8 Linear Optimization
+parent_type: CourseSection
 parent_uid: daafaa58-867c-9765-f1c4-c60a9c0ed426
 title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
 uid: 2900efa7-1aff-756d-feba-74c6d16f2d3d

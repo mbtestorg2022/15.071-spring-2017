@@ -1,7 +1,10 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are
   Cast  (Recitation)'
+parent_type: CourseSection
 parent_uid: cd55cbba-60f6-d5d3-7320-e05f520c4cf1
 title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are Cast  (Recitation)'
 uid: 20d82873-6498-be17-a983-f7473b292a08

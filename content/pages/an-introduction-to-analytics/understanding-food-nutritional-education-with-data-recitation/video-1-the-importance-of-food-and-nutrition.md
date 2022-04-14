@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
+parent_type: CourseSection
 parent_uid: 7ae5f9ab-ee30-803e-522b-c737bfb5e185
 title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
 uid: 4f44f3ee-6d9f-23a6-4a20-62fef7b59b43
