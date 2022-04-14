@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: 2.4 Playing Moneyball in the NBA  (Recitation)
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 3: Points Scored'
 uid: 24430922-b686-2545-d3f6-74970e1b3a09
 video_files:

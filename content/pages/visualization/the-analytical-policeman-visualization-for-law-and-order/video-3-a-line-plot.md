@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
 parent_uid: 716f78f6-1fe6-c5f4-7370-d7a3c4127827
 title: '7.3 The Analytical Policeman: Visualization for Law and Order'
 uid: 1bd0d7e9-c5ce-0101-823b-0faa796ad873
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-545)
+*   [\<Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-545)
 *   [7.3.1Video 1: Predictive Policing]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order)
 *   [7.3.2Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-540)
 *   [7.3.3Video 2: Visualizing Crime Over Time]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-2-visualizing-crime-over-time)

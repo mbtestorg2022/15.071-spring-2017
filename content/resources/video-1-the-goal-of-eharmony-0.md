@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '9.3 eHarmony: Maximizing the Probability of Love '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 1: The Goal of eHarmony'
 uid: 2616e612-5d8c-82a0-cbaa-b8b3829716c1
 video_files:

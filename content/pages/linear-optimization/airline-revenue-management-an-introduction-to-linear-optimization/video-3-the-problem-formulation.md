@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
+parent_type: CourseSection
 parent_uid: 2900efa7-1aff-756d-feba-74c6d16f2d3d
 title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
 uid: e9725d1b-f88e-acdd-5ae8-cd5e31dbe7cc
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-581)
+*   [\<Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-581)
 *   [8.2.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization)
 *   [8.2.2Video 2: A Single Flight]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-2-a-single-flight)
 *   [8.2.3Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-581)

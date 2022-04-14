@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 3: Data Analysis'
 uid: 7b76c708-2884-83f1-384a-424fbad747de
 video_files:

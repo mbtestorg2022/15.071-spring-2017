@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 4: Bag of Words'
 uid: 73969d4c-9025-1c44-6087-8d4aaaa03de3
 video_files:

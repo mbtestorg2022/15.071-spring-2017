@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: Bag of Words in R'
 uid: a9f646f5-ca97-7eea-a267-504c5cbef773
 video_files:

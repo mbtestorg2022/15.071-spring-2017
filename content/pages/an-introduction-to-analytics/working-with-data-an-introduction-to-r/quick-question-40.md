@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '1.3 Working with Data: An Introduction to R '
+parent_type: CourseSection
 parent_uid: 1ac933da-13d1-3dfa-2e38-03abf2d6971f
 title: '1.3 Working with Data: An Introduction to R '
 uid: 64119b70-3f1d-42bf-97ce-9f87d64a094c
 ---
 
-*   [<Video 6: Data Analysis - Plots and Summary Tables]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-6-data-analysis-plots-and-summary-tables)
+*   [\<Video 6: Data Analysis - Plots and Summary Tables]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-6-data-analysis-plots-and-summary-tables)
 *   [1.3.1Download and Install R]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r)
 *   [1.3.2Video 1: Why R?]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-1-why-r)
 *   [1.3.3Quick Question]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/quick-question)

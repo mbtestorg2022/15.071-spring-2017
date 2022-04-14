@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '2.3 Moneyball: The Power of Sports Analytics '
+parent_type: CourseSection
 parent_uid: fcb6a63f-4737-920a-80bf-15309d3ee7b6
 title: '2.3 Moneyball: The Power of Sports Analytics '
 uid: 9694655b-1331-2f40-a587-b03a675d6122
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/quick-question-126)
+*   [\<Quick Question]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/quick-question-126)
 *   [2.3.1A Quick Introduction to Baseball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics)
 *   [2.3.2Video 1: The Story of Moneyball]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-1-the-story-of-moneyball)
 *   [2.3.3Video 2: Making it to the Playoffs]({{< baseurl >}}/pages/linear-regression/moneyball-the-power-of-sports-analytics/video-2-making-it-to-the-playoffs)

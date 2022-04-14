@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 2: Pie Charts'
 uid: 62c91436-2a96-ae6b-2951-0df50e46a23b
 video_files:

@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '9.4 Operating Room Scheduling: Making Hospitals Run Smoothly  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 2: An Optimization Model'
 uid: e8273e64-04dd-14bc-3de0-f9646b82c0de
 video_files:

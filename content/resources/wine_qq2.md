@@ -7,6 +7,11 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Figure showing three data points and the best fit line.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
+parent_type: CourseSection
+parent_uid: a15d356c-50bc-b55a-2cbd-e1c66378ef25
 resourcetype: Image
 title: Wine_QQ2.png
 uid: 0c812c31-8c89-3954-3d90-1b0f954da36a

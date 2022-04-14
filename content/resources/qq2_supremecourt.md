@@ -7,6 +7,11 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Example of a cart tree.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '4.2 Judge, Jury, and Classifier: An Introduction to Trees '
+parent_type: CourseSection
+parent_uid: 076a36dd-c951-926f-d5c9-9ccb41e476d9
 resourcetype: Image
 title: QQ2_SupremeCourt.png
 uid: b2eea6fb-a57d-b424-a484-4f679aee4bc9

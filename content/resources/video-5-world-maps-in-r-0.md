@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 5: World Maps in R'
 uid: 2d0cc6b8-f9c3-6bd7-f2c0-eae1650a9349
 video_files:

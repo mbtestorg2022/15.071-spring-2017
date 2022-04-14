@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 3: Bar Charts in R'
 uid: 598eb710-c967-5a9d-f54b-9369f24d426f
 video_files:

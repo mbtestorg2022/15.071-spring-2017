@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
+parent_type: CourseSection
 parent_uid: 0943bd81-1d9c-af9e-92bf-3c7bf9d7b9f2
 title: '6.3 Predictive Diagnosis: Discovering Patterns for Disease Detection '
 uid: 66f1e2b4-e0ac-840f-3944-07c44392d2f1
 ---
 
-*   [<Predictive Diagnosis: Discovering Patterns for Disease Detection]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection)
+*   [\<Predictive Diagnosis: Discovering Patterns for Disease Detection]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection)
 *   [6.3.1Video 1: Heart Attacks]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection)
 *   [6.3.2Quick Question]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/quick-question-481)
 *   [6.3.3Video 2: The Data]({{< baseurl >}}/pages/clustering/predictive-diagnosis-discovering-patterns-for-disease-detection/video-2-the-data-6)

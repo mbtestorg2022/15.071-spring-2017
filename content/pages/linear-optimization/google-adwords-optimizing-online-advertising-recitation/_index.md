@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 8 Linear Optimization
+parent_type: CourseSection
 parent_uid: daafaa58-867c-9765-f1c4-c60a9c0ed426
 title: '8.4 Google AdWords: Optimizing Online Advertising  (Recitation)'
 uid: 696dd6e4-42cc-1fc4-7c9f-2924e2edfb26
 ---
 
-*   [<Video 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)
+*   [\<Video 6: The Analytics Edge]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-6-the-analytics-edge)
 *   [8.4.1Welcome to Recitation 8]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation)
 *   [8.4.2Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-1-introduction-8)
 *   [8.4.3Video 2: How Online Advertising Works]({{< baseurl >}}/pages/linear-optimization/google-adwords-optimizing-online-advertising-recitation/video-2-how-online-advertising-works)

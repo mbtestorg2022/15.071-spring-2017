@@ -1,15 +1,41 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
+parent_type: CourseSection
 parent_uid: 2900efa7-1aff-756d-feba-74c6d16f2d3d
 title: '8.2 Airline Revenue Management: An Introduction to Linear Optimization '
 uid: 71d3d9d3-2435-5e5d-1972-5596dcc0bf78
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/f20e206f20f79b3c410bc053183afdbb"><<span>Video 6: Sensitivity Analysis</span></a></li><li id="flp_btn_1"><a href="./resolveuid/2900efa71aff756dfeba74c6d16f2d3d">8.2.1<span>Video 1: Introduction</span></a></li><li id="flp_btn_2"><a href="./resolveuid/1a99f51a66ac8af143edd5efdd454605">8.2.2<span>Video 2: A Single Flight</span></a></li><li id="flp_btn_3"><a href="./resolveuid/3a0381dfab5eb38df33852ce8d57f81b">8.2.3<span>Quick Question</span></a></li><li id="flp_btn_4"><a href="./resolveuid/e9725d1bf88eacdd5ae8cd5e31dbe7cc">8.2.4<span>Video 3: The Problem Formulation</span></a></li><li id="flp_btn_5"><a href="./resolveuid/b7f0594b3047a305cb8af6815a526173">8.2.5<span>Quick Question</span></a></li><li id="flp_btn_6"><a href="./resolveuid/86a033cce142d448a8bb9112a73f89db">8.2.6<span>Video 4: Solving the Problem</span></a></li><li id="flp_btn_7"><a href="./resolveuid/52678524d9dfc3446fc997eed6c5a010">8.2.7<span>Quick Question</span></a></li><li id="flp_btn_8"><a href="./resolveuid/f7f2a67cb4796f7b313da3b222582c72">8.2.8<span>Video 5: Visualizing the Problem</span></a></li><li id="flp_btn_9"><a href="./resolveuid/bcd5d3fe6076384751824e5ef3218335">8.2.9<span>Quick Question</span></a></li><li id="flp_btn_10"><a href="./resolveuid/f20e206f20f79b3c410bc053183afdbb">8.2.10<span>Video 6: Sensitivity Analysis</span></a></li><li id="flp_btn_11" class="button_selected"><a href="./resolveuid/71d3d9d324355e5d19725596dcc0bf78">8.2.11<span>Quick Question</span></a></li><li id="flp_btn_12"><a href="./resolveuid/80f150bc38fd0f8475f7ccfe876f7744">8.2.12<span>Video 7: Connecting Flights</span></a></li><li id="flp_btn_13"><a href="./resolveuid/866b08a838d4f694786a619e9ebff44b">8.2.13<span>Quick Question</span></a></li><li id="flp_btn_14"><a href="./resolveuid/0cd767ebf8c6279f86f216e785139b90">8.2.14<span>Video 8: The Edge of Revenue Management</span></a></li><li id="top_continue_btn"><a href="./resolveuid/80f150bc38fd0f8475f7ccfe876f7744">><span>Video 7: Connecting Flights</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<p display_name="Quick Question" url_name="Quick_Question_616">In your spreadsheet, change the capacity to 250 in the capacity constraint, the regular demand to 150, and the discount demand to 150. Then re-solve the model. </p>
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_617">What is the objective value of the optimal solution?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="116350" /><input type="hidden" id="Q1_tolerance" value="1%" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_619">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>You can change the values in the capacity constraint RHS (cell D11), the regular demand (cell D5), and the discount demand (cell D6) and resolve the model by selecting "Solver..." in the "Tools" menu. After it finishes solving, the objective value can be found in the blue cell (B8)</p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/f20e206f20f79b3c410bc053183afdbb">Back<span>Video 6: Sensitivity Analysis</span></a></li><li id="continue_btn"><a href="./resolveuid/80f150bc38fd0f8475f7ccfe876f7744">Continue<span>Video 7: Connecting Flights</span></a></li></ul>
+
+*   [\<Video 6: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-6-sensitivity-analysis)
+*   [8.2.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization)
+*   [8.2.2Video 2: A Single Flight]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-2-a-single-flight)
+*   [8.2.3Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-581)
+*   [8.2.4Video 3: The Problem Formulation]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-3-the-problem-formulation)
+*   [8.2.5Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-590)
+*   [8.2.6Video 4: Solving the Problem]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-4-solving-the-problem)
+*   [8.2.7Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-598)
+*   [8.2.8Video 5: Visualizing the Problem]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-5-visualizing-the-problem)
+*   [8.2.9Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-606)
+*   [8.2.10Video 6: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-6-sensitivity-analysis)
+*   [8.2.11Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-614)
+*   [8.2.12Video 7: Connecting Flights]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-7-connecting-flights)
+*   [8.2.13Quick Question]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/quick-question-620)
+*   [8.2.14Video 8: The Edge of Revenue Management]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-8-the-edge-of-revenue-management)
+*   [\>Video 7: Connecting Flights]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-7-connecting-flights)
+
+Quick Question
+--------------
+
+In your spreadsheet, change the capacity to 250 in the capacity constraint, the regular demand to 150, and the discount demand to 150. Then re-solve the model.
+
+What is the objective value of the optimal solution?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 6: Sensitivity Analysis]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-6-sensitivity-analysis)
+*   [ContinueVideo 7: Connecting Flights]({{< baseurl >}}/pages/linear-optimization/airline-revenue-management-an-introduction-to-linear-optimization/video-7-connecting-flights)

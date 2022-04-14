@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 2: One-Variable Linear Regression'
 uid: 91ac06a2-616c-f560-504c-554da554adf0
 video_files:

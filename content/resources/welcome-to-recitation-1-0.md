@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '1.4 Understanding Food: Nutritional Education with Data  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: Welcome to Recitation 1
 uid: 0b76afae-60bf-8e22-d424-63ddd3dc5bec
 video_files:

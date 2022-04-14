@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 2: An Optimization Problem'
 uid: 887bf91f-8ace-080b-a515-41e123b4e495
 video_files:

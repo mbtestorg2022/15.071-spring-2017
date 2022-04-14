@@ -1,13 +1,16 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are
   Cast  (Recitation)'
+parent_type: CourseSection
 parent_uid: cd55cbba-60f6-d5d3-7320-e05f520c4cf1
 title: '3.4 Election Forecasting: Predicting the Winner Before any Votes are Cast  (Recitation)'
 uid: e6c5cd7b-6c45-8a54-bf35-13e7c7c4921e
 ---
 
-*   [<Video 2: Dealing with Missing Data]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-2-dealing-with-missing-data)
+*   [\<Video 2: Dealing with Missing Data]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-2-dealing-with-missing-data)
 *   [3.4.1Welcome to Recitation 3]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation)
 *   [3.4.2Video 1: Election Prediction]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-1-election-prediction)
 *   [3.4.3Video 2: Dealing with Missing Data]({{< baseurl >}}/pages/logistic-regression/election-forecasting-predicting-the-winner-before-any-votes-are-cast-recitation/video-2-dealing-with-missing-data)

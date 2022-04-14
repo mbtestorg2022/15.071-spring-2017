@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 5 Text Analytics
 uid: 5847ad87-9afe-cf3e-9b93-c20cffe87acf
 ---

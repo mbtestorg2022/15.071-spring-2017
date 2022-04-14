@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '5.4 Predictive Coding: Bringing Text Analytics to the Courtroom  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: Welcome to Recitation 5
 uid: 7d2e790e-26b9-a645-a0f8-3bf0e24e0a2f
 video_files:

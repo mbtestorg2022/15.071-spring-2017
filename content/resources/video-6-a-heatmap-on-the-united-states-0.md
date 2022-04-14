@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: A Heatmap on the United States'
 uid: 043fc419-1950-05dd-6080-e3330724c725
 video_files:

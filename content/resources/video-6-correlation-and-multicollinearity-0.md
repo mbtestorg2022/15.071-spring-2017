@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '2.2 The Statistical Sommelier: An Introduction to Linear Regression'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: Correlation and Multicollinearity'
 uid: b1f84e0e-4096-e15f-c254-e782612a2cea
 video_files:

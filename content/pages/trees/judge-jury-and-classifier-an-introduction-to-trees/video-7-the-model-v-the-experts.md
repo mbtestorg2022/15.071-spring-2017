@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '4.2 Judge, Jury, and Classifier: An Introduction to Trees '
+parent_type: CourseSection
 parent_uid: 11f9b44d-c296-0689-414b-8c313764a18d
 title: '4.2 Judge, Jury, and Classifier: An Introduction to Trees '
 uid: 2ca2e4f1-74a6-6019-fbe6-8e97bba87376
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/quick-question-306)
+*   [\<Quick Question]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/quick-question-306)
 *   [4.2.1Video 1: The Supreme Court]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees)
 *   [4.2.2Quick Question]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/quick-question-253)
 *   [4.2.3Video 2: CART]({{< baseurl >}}/pages/trees/judge-jury-and-classifier-an-introduction-to-trees/video-2-cart)

@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
+parent_type: CourseSection
 parent_uid: b091b1be-c85a-85e0-60a8-3b7905c9dcce
 title: '6.2 Recommendations Worth a Million: An Introduction to Clustering '
 uid: b7314818-ce6b-5cbc-b1a5-e7bedcb314f0
 ---
 
-*   [<Video 3: Movie Data and Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-3-movie-data-and-clustering)
+*   [\<Video 3: Movie Data and Clustering]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-3-movie-data-and-clustering)
 *   [6.2.1Video 1: Introduction to Netflix]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering)
 *   [6.2.2Quick Question]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/quick-question-433)
 *   [6.2.3Video 2: Recommendation Systems]({{< baseurl >}}/pages/clustering/recommendations-worth-a-million-an-introduction-to-clustering/video-2-recommendation-systems)

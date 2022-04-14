@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: 5 Text Analytics
+parent_type: CourseSection
 parent_uid: 5847ad87-9afe-cf3e-9b93-c20cffe87acf
 title: 5.1 Welcome to Unit 5
 uid: 099087f8-28fe-0181-33bb-4d81b65985a1
 ---
 
-*   [<Text Analytics]({{< baseurl >}}/pages/text-analytics)
+*   [\<Text Analytics]({{< baseurl >}}/pages/text-analytics)
 *   [5.1.1Welcome to Unit 5]({{< baseurl >}}/pages/text-analytics/welcome-to-unit-5)
 *   [\>Turning Tweets into Knowledge: An Introduction to Text Analytics]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics)
 

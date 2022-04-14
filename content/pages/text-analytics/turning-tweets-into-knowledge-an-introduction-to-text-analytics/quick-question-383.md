@@ -1,18 +1,45 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
+parent_type: CourseSection
 parent_uid: aea3bc9c-07f7-3648-65c4-6fec93dd8515
 title: '5.2 Turning Tweets into Knowledge: An Introduction to Text Analytics'
 uid: 2199fef8-1de9-2125-4a61-069ec69f588e
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/6cb54a0c457feabde1b7dd4d95399d8c"><<span>Video 5: Pre-Processing in R</span></a></li><li id="flp_btn_1"><a href="./resolveuid/aea3bc9c07f7364865c46fec93dd8515">5.2.1<span>Video 1: Twitter</span></a></li><li id="flp_btn_2"><a href="./resolveuid/55f5a296f8231477e8374b3f5b26d21f">5.2.2<span>Video 2: Text Analytics</span></a></li><li id="flp_btn_3"><a href="./resolveuid/e9e9d44ac8e568124e52cdb5056597b7">5.2.3<span>Quick Question</span></a></li><li id="flp_btn_4"><a href="./resolveuid/f8520c5ec3cf3c3fe04672b8a73ae3a5">5.2.4<span>Video 3: Creating the Dataset</span></a></li><li id="flp_btn_5"><a href="./resolveuid/5e8b108be5fd93208fe7cd8bd5420c69">5.2.5<span>Quick Question</span></a></li><li id="flp_btn_6"><a href="./resolveuid/d4dd29197499fdd3dac1bca9ea53d04c">5.2.6<span>Video 4: Bag of Words</span></a></li><li id="flp_btn_7"><a href="./resolveuid/820047e715d4d34740e011a49546196a">5.2.7<span>Quick Question</span></a></li><li id="flp_btn_8"><a href="./resolveuid/6cb54a0c457feabde1b7dd4d95399d8c">5.2.8<span>Video 5: Pre-Processing in R</span></a></li><li id="flp_btn_9" class="button_selected"><a href="./resolveuid/2199fef81de921254a61069ec69f588e">5.2.9<span>Quick Question</span></a></li><li id="flp_btn_10"><a href="./resolveuid/b8c9ec4867a6977eb31db490c342ef38">5.2.10<span>Video 6: Bag of Words in R</span></a></li><li id="flp_btn_11"><a href="./resolveuid/ef17614fa0132a73a77105ff3c4311af">5.2.11<span>Quick Question</span></a></li><li id="flp_btn_12"><a href="./resolveuid/6faa3dc62c17bf81844bb5d994e997d9">5.2.12<span>Video 7: Predicting Sentiment</span></a></li><li id="flp_btn_13"><a href="./resolveuid/c08c448dba2f6d4e4aa3a930b6c97c07">5.2.13<span>Quick Question</span></a></li><li id="flp_btn_14"><a href="./resolveuid/f3a415ffeba9ca2d622f58bcb8aea03c">5.2.14<span>Video 8: Conclusion</span></a></li><li id="top_continue_btn"><a href="./resolveuid/b8c9ec4867a6977eb31db490c342ef38">><span>Video 6: Bag of Words in R</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_385">Given a corpus in R, how many commands do you need to run in R to clean up the irregularities (removing capital letters and punctuation)?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="2" /><input type="hidden" id="Q1_tolerance" value="0" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_387">How many commands do you need to run to stem the document?</p><fieldset><legend class="visually-hidden">Exercise 2</legend><div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="1" /><input type="hidden" id="Q2_tolerance" value="0" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S2_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_389">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>In R, you can clean up the irregularities with two lines:</p>
-<p>corpus = tm_map(corpus, tolower)</p>
-<p>corpus = tm_map(corpus, removePunctuation)</p>
-<p>And you can stem the document with one line:</p>
-<p>corpus = tm_map(corpus, stemDocument)</p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/6cb54a0c457feabde1b7dd4d95399d8c">Back<span>Video 5: Pre-Processing in R</span></a></li><li id="continue_btn"><a href="./resolveuid/b8c9ec4867a6977eb31db490c342ef38">Continue<span>Video 6: Bag of Words in R</span></a></li></ul>
+
+*   [\<Video 5: Pre-Processing in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-5-pre-processing-in-r)
+*   [5.2.1Video 1: Twitter]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics)
+*   [5.2.2Video 2: Text Analytics]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-2-text-analytics)
+*   [5.2.3Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-362)
+*   [5.2.4Video 3: Creating the Dataset]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-3-creating-the-dataset)
+*   [5.2.5Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-367)
+*   [5.2.6Video 4: Bag of Words]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-4-bag-of-words)
+*   [5.2.7Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-373)
+*   [5.2.8Video 5: Pre-Processing in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-5-pre-processing-in-r)
+*   [5.2.9Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-383)
+*   [5.2.10Video 6: Bag of Words in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-6-bag-of-words-in-r)
+*   [5.2.11Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-390)
+*   [5.2.12Video 7: Predicting Sentiment]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-7-predicting-sentiment)
+*   [5.2.13Quick Question]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/quick-question-395)
+*   [5.2.14Video 8: Conclusion]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-8-conclusion)
+*   [\>Video 6: Bag of Words in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-6-bag-of-words-in-r)
+
+Quick Question
+--------------
+
+Given a corpus in R, how many commands do you need to run in R to clean up the irregularities (removing capital letters and punctuation)?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+How many commands do you need to run to stem the document?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 5: Pre-Processing in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-5-pre-processing-in-r)
+*   [ContinueVideo 6: Bag of Words in R]({{< baseurl >}}/pages/text-analytics/turning-tweets-into-knowledge-an-introduction-to-text-analytics/video-6-bag-of-words-in-r)

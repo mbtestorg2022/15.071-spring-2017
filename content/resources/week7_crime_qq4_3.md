@@ -8,6 +8,11 @@ image_metadata:
   credit: ''
   image-alt: Heatmap of total motor vehicle thefts according to time and day in shades
     of grey.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
+parent_uid: 6bc1ec1e-1262-c5a1-28e1-f822404bb0ba
 resourcetype: Image
 title: Week7_Crime_QQ4_3.png
 uid: 1d25eaf4-f014-1088-66b6-b4a661b87ed1

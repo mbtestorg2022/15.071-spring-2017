@@ -1,8 +1,59 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '3.2 Modeling the Expert: An Introduction to Logistic Regression'
+parent_type: CourseSection
 parent_uid: 3063320a-4175-6b8a-4fa9-892f61b52c0d
 title: '3.2 Modeling the Expert: An Introduction to Logistic Regression'
 uid: 9cb7a258-ad19-0f7f-84e5-89aad47092b1
 ---
-<ul class="navigation pagination">     <li id="top_bck_btn"><a href="./resolveuid/8099bebbd4e81ce09baa3ede1f3ec357">&lt;<span>Video 3: Logistic Regression</span></a></li>     <li id="flp_btn_1"><a href="./resolveuid/3063320a41756b8a4fa9892f61b52c0d">3.2.1<span>Video 1: Replicating Expert Assessment</span></a></li>     <li id="flp_btn_2"><a href="./resolveuid/a92dcb88eddd40ad72c0d5bc2288c90e">3.2.2<span>Video 2: Building the Dataset</span></a></li>     <li id="flp_btn_3"><a href="./resolveuid/4551bb95ca82a0cacf08eda74141daaa">3.2.3<span>Quick Question</span></a></li>     <li id="flp_btn_4"><a href="./resolveuid/8099bebbd4e81ce09baa3ede1f3ec357">3.2.4<span>Video 3: Logistic Regression</span></a></li>     <li id="flp_btn_5" class="button_selected"><a href="./resolveuid/9cb7a258ad190f7f84e589aad47092b1">3.2.5<span>Quick Question</span></a></li>     <li id="flp_btn_6"><a href="./resolveuid/8fc17cbb03cdce23b5880c21e7dc33e8">3.2.6<span>Video 4: Logistic Regression in R</span></a></li>     <li id="flp_btn_7"><a href="./resolveuid/8c08020699935e2bb0c50c4cd73fd74c">3.2.7<span>Quick Question</span></a></li>     <li id="flp_btn_8"><a href="./resolveuid/7bf86a6c2bb6629ed20e4dd216833197">3.2.8<span>Video 5: Thresholding</span></a></li>     <li id="flp_btn_9"><a href="./resolveuid/d565e093b63db8429332eabcb8503b85">3.2.9<span>Quick Question</span></a></li>     <li id="flp_btn_10"><a href="./resolveuid/f62162651257bdbe48268a5e5b311096">3.2.10<span>Video 6: ROC Curves</span></a></li>     <li id="flp_btn_11"><a href="./resolveuid/d9817f81c4ac257aed44548eaa714059">3.2.11<span>Quick Question</span></a></li>     <li id="flp_btn_12"><a href="./resolveuid/1e61720ecc150a7b0c5eb3fe60c5ffa1">3.2.12<span>Video 7: Interpreting the Model</span></a></li>     <li id="flp_btn_13"><a href="./resolveuid/8809159b6e060da2d38690c7900fdd67">3.2.13<span>Quick Question</span></a></li>     <li id="flp_btn_14"><a href="./resolveuid/81d5d93d77c2b8fc0b85d9cbcdc418a5">3.2.14<span>Video 8: The Analytics Edge</span></a></li>     <li id="top_continue_btn"><a href="./resolveuid/8fc17cbb03cdce23b5880c21e7dc33e8">&gt;<span>Video 4: Logistic Regression in R</span></a></li> </ul> <h2 class="subhead">Quick Question</h2> <div class="self_assessment"><p display_name="Quick Question" url_name="Quick_Question_154">Suppose the coefficients of a logistic regression model with two independent variables are as follows:</p> \( \beta_{()} = -1.5 , \enspace \beta_1 = 3 , \enspace \beta_2 = -0.5 \)  <p>&nbsp;</p><p>And we have an observation with the following values for the independent variables:</p> \( x_1 = 1 , \enspace x_2 = 5 \) <div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_158">&nbsp;</p><p display_name="Quick Question" url_name="Quick_Question_158">What is the value of the Logit for this observation? Recall that the Logit is log(Odds).</p> <fieldset><legend class="visually-hidden">Exercise 1</legend> <div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="-1" /><input type="hidden" id="Q1_tolerance" value="1%" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S1_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_160"><div class="detailed-solution"><p>Explanation</p> <p>The Logit is just log(Odds), and looks like the linear regression equation. So the Logit is -1.5 + 3*1 - 0.5*5 = -1.</p></div></div> <div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_161">What is the value of the Odds for this observation? Note that you can compute e^x, for some number x, in your R console by typing exp(x). The function exp() computes the exponential of its argument.</p> <fieldset><legend class="visually-hidden">Exercise 2</legend> <div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="0.3678794" /><input type="hidden" id="Q2_tolerance" value="1%" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S2_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S2_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_163"><div class="detailed-solution"><p>Explanation</p> <p>Using the value of the Logit from the previous question, we have that Odds = e^(-1) = 0.3678794.</p></div></div> <div id="Q3_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_164">What is the value of P(y = 1) for this observation?</p> <fieldset><legend class="visually-hidden">Exercise 3</legend> <div class="choice"><label id="Q3_label"><span id="Q3_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q3_input" value="" onkeypress="numericTypedOrDropDownSelected(3)" class="problem_text_input" /><input type="hidden" id="Q3_ans" value="0.2689414" /><input type="hidden" id="Q3_tolerance" value="1%" /><span id="Q3_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S3_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S3_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_166"><div class="detailed-solution"><p>Explanation</p> <p>Using the Logistic Response Function, we can compute that P(y = 1) = 1/(1 + e^(-Logit)) = 1/(1 + e^(1)) = 0.2689414.</p></div></div> <div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical', 3: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical', 3: 'numerical'}, 1, [1, 2, 3])" class="problem_mo_button">Show Answer</button></div></div> <ul class="navigation progress">     <li id="bck_btn"><a href="./resolveuid/8099bebbd4e81ce09baa3ede1f3ec357">Back<span>Video 3: Logistic Regression</span></a></li>     <li id="continue_btn"><a href="./resolveuid/8fc17cbb03cdce23b5880c21e7dc33e8">Continue<span>Video 4: Logistic Regression in R</span></a></li> </ul>
+
+*   [\<Video 3: Logistic Regression]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-3-logistic-regression)
+*   [3.2.1Video 1: Replicating Expert Assessment]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression)
+*   [3.2.2Video 2: Building the Dataset]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-2-building-the-dataset)
+*   [3.2.3Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-144)
+*   [3.2.4Video 3: Logistic Regression]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-3-logistic-regression)
+*   [3.2.5Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-152)
+*   [3.2.6Video 4: Logistic Regression in R]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-4-logistic-regression-in-r)
+*   [3.2.7Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-167)
+*   [3.2.8Video 5: Thresholding]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-5-thresholding)
+*   [3.2.9Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-188)
+*   [3.2.10Video 6: ROC Curves]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-6-roc-curves)
+*   [3.2.11Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-200)
+*   [3.2.12Video 7: Interpreting the Model]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-7-interpreting-the-model)
+*   [3.2.13Quick Question]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/quick-question-208)
+*   [3.2.14Video 8: The Analytics Edge]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-8-the-analytics-edge)
+*   [\>Video 4: Logistic Regression in R]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-4-logistic-regression-in-r)
+
+Quick Question
+--------------
+
+Suppose the coefficients of a logistic regression model with two independent variables are as follows:
+
+\\( \\beta\_{()} = -1.5 , \\enspace \\beta\_1 = 3 , \\enspace \\beta\_2 = -0.5 \\)
+
+And we have an observation with the following values for the independent variables:
+
+\\( x\_1 = 1 , \\enspace x\_2 = 5 \\)
+
+What is the value of the Logit for this observation? Recall that the Logit is log(Odds).
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+What is the value of the Odds for this observation? Note that you can compute e^x, for some number x, in your R console by typing exp(x). The function exp() computes the exponential of its argument.
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+What is the value of P(y = 1) for this observation?
+
+Exercise 3
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 3: Logistic Regression]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-3-logistic-regression)
+*   [ContinueVideo 4: Logistic Regression in R]({{< baseurl >}}/pages/logistic-regression/modeling-the-expert-an-introduction-to-logistic-regression/video-4-logistic-regression-in-r)

@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 1 An Introduction to Analytics
 uid: bebdc8ab-5b1f-9682-d6b7-62b671b5cf25
 ---

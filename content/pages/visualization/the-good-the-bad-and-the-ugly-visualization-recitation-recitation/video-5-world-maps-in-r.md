@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
 parent_uid: 0af39afb-aff0-a226-a397-da1206ecd712
 title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
 uid: 3ba39db4-a883-d8db-c319-e06abeaa21a5
 ---
 
-*   [<Video 4: A Better Visualization]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-4-a-better-visualization)
+*   [\<Video 4: A Better Visualization]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-4-a-better-visualization)
 *   [7.4.1Welcome to Recitation 7]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation)
 *   [7.4.2Video 1: Introduction]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-1-introduction)
 *   [7.4.3Video 2: Pie Charts]({{< baseurl >}}/pages/visualization/the-good-the-bad-and-the-ugly-visualization-recitation-recitation/video-2-pie-charts)

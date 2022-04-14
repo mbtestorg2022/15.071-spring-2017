@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 4 Trees
 uid: 19c8cf92-e31d-034a-1ea1-5ad53194d892
 ---

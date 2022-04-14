@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
+parent_type: CourseSection
 parent_uid: fbf2b704-9246-466e-f247-36bff248b7c3
 title: '9.2 Sports Scheduling: An Introduction to Integer Optimization '
 uid: 611ff2e2-25d3-1291-5c17-05e9cd35ede7
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-673)
+*   [\<Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-673)
 *   [9.2.1Video 1: Introduction]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization)
 *   [9.2.2Quick Question]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/quick-question-665)
 *   [9.2.3Video 2: The Optimization Problem]({{< baseurl >}}/pages/integer-optimization/sports-scheduling-an-introduction-to-integer-optimization/video-2-the-optimization-problem)

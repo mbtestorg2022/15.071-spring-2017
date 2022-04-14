@@ -1,8 +1,291 @@
 ---
 content_type: page
+learning_resource_types:
+- Assignments
+ocw_type: CourseSection
 parent_title: 5.5 Assignment 5
+parent_type: CourseSection
 parent_uid: 81eae0fd-28f2-8733-6b79-2210ba33dfbb
 title: 5.5 Assignment 5
 uid: 2e4c9dd9-6d08-4e8f-d1d8-111a5affc5a4
 ---
-<ul class="navigation pagination">     <li id="top_bck_btn"><a href="./resolveuid/81eae0fd28f287336b792210ba33dfbb">&lt;<span>Assignment 5</span></a></li>     <li id="flp_btn_1"><a href="./resolveuid/81eae0fd28f287336b792210ba33dfbb">5.5.1<span>Separating Spam from Ham (Part 1)</span></a></li>     <li id="flp_btn_2" class="button_selected"><a href="./resolveuid/2e4c9dd96d084e8fd1d8111a5affc5a4">5.5.2<span>Detecting Vandalism on Wikipedia</span></a></li>     <li id="flp_btn_3"><a href="./resolveuid/f9baad347f956b6f860866551433d510">5.5.3<span>Automating Reviews in Medicine</span></a></li>     <li id="top_continue_btn"><a href="./resolveuid/f9baad347f956b6f860866551433d510">&gt;<span>Automating Reviews in Medicine</span></a></li> </ul> <h2 class="subhead">Detecting Vandalism on Wikipedia</h2> <p><span style="text-decoration: underline;"><a href="http://en.wikipedia.org/wiki/Wikipedia" target="_blank">Wikipedia</a></span> is a free online encyclopedia that anyone can edit and contribute to. It is available in many languages and is growing all the time. On the English language version of Wikipedia:</p> <ul>     <li>There are currently <span style="text-decoration: underline;"><a href="http://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia" target="_blank">4.7 million pages</a></span>*.</li>     <li>There have been a total over <span style="text-decoration: underline;"><a href="http://en.wikipedia.org/wiki/Wikipedia:Pruning_article_revisions" target="_blank">760 million edits</a></span>* (also called revisions) over its lifetime.</li>     <li>There are approximately <span style="text-decoration: underline;"><a href="http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Editing_trends/Raw_data/Revisions_per_day" target="_blank">130,000 edits per day</a></span>*.</li> </ul> <p>* At time of 15.071x course publication.</p><p>One of the consequences of being editable by anyone is that some people <em>vandalize</em> pages. This can take the form of removing content, adding promotional or inappropriate content, or more subtle shifts that change the meaning of the article. With this many articles and edits per day it is difficult for humans to detect all instances of vandalism and&nbsp;<em>revert</em>&nbsp;(undo) them. As a result, Wikipedia uses&nbsp;<em>bots</em>&nbsp;- computer programs that automatically revert edits that look like vandalism. In this assignment we will attempt to develop a vandalism detector that uses machine learning to distinguish between a valid edit and vandalism.</p> <p>The data for this problem is based on the revision history of the page <span style="text-decoration: underline;"><a href="http://en.wikipedia.org/wiki/Language" target="_blank">Language</a></span>. Wikipedia provides a history for each page that consists of the state of the page at each revision. Rather than manually considering each revision, a script was run that checked whether edits stayed or were reverted. If a change was eventually reverted then that revision is marked as vandalism. This may result in some misclassifications, but the script performs well enough for our needs.</p> <p>As a result of this preprocessing, some common processing tasks have already been done, including lower-casing and punctuation removal. The columns in the dataset are:</p> <ul>     <li>Vandal = 1 if this edit was vandalism, 0 if not.</li>     <li>Minor = 1 if the user marked this edit as a &quot;minor edit&quot;, 0 if not.</li>     <li>Loggedin = 1 if the user made this edit while using a Wikipedia account, 0 if they did&nbsp;not.</li>     <li><span style="line-height: 1.6;" data-mce-mark="1">Added = The&nbsp;</span><em style="line-height: 1.6;">unique</em><span style="line-height: 1.6;" data-mce-mark="1"> words added.</span></li>     <li><span style="line-height: 1.6;" data-mce-mark="1">Removed = The <em>unique</em> words removed.</span></li> </ul> <p>Notice the repeated use of&nbsp;<em>unique</em>. The data we have available is not the traditional bag of words - rather it is the set of words that were removed or added. For example, if a word was removed multiple times in a revision it will only appear one time in the &quot;Removed&quot; column.</p> <h2 class="subhead">Problem 1.1 - Bags of Words</h2> <div class="self_assessment"><p display_name="Problem 1.1 - Bags of Words" url_name="Problem_1_1_Bags_of_Words_0">Load the data <u><a href="./resolveuid/689509df0b6105e6af7ea0b866825c45">wiki (CSV)</a></u>&nbsp;with the option stringsAsFactors=FALSE, calling the data frame &quot;wiki&quot;. Convert the &quot;Vandal&quot; column to a factor using the command wiki$Vandal = as.factor(wiki$Vandal).</p> <div id="Q1_div" class="problem_question"><p display_name="Problem 1.1 - Bags of Words" url_name="Problem_1_1_Bags_of_Words_1">How many cases of vandalism were detected in the history of this page?</p> <fieldset><legend class="visually-hidden">Exercise 1</legend> <div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="1815" /><input type="hidden" id="Q1_tolerance" value="0" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S1_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S1_div" class="problem_solution" tabindex="-1" display_name="Problem 1.1 - Bags of Words" url_name="Problem_1_1_Bags_of_Words_3"><div class="detailed-solution"><p>Explanation</p> <p>You can load the data using the command:</p> <p>wiki = read.csv(&quot;wiki.csv&quot;, stringsAsFactors=FALSE)</p> <p>And then convert Vandal to a factor with the command:</p> <p>wiki$Vandal = as.factor(wiki$Vandal)</p> <p>You can then use the table command to see how many cases of Vandalism there are:</p> <p>table(wiki$Vandal)</p> <p>There are 1815 observations with value 1, which denotes vandalism.</p></div></div> <div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.2 - Bags of Words</h2> <div class="self_assessment"><p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_0">We will now use the bag of words approach to build a model. We have two columns of textual data, with different meanings. For example, adding rude words has a different meaning than removing rude words. We'll start like we did in class by building a document term matrix from the Added column. The text already is lowercase and stripped of punctuation. So to pre-process the data, just complete the following four steps:</p> <p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_1">1) Create the corpus for the Added column, and call it &quot;corpusAdded&quot;.</p> <p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_2">2) Remove the English-language stopwords.</p> <p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_3">3) Stem the words.</p> <p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_4">4) Build the DocumentTermMatrix, and call it dtmAdded.</p> <p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_5">If the code length(stopwords(&quot;english&quot;)) does not return 174 for you, then please run the line of code in&nbsp;<u><a href="./resolveuid/8bb9e560bb61e7199ca1eccfbe6a9832">stopwords (TXT) file</a></u>, which will store the standard stop words in a variable called sw. When removing stop words, use tm_map(corpusAdded, removeWords, sw) instead of tm_map(corpusAdded, removeWords, stopwords(&quot;english&quot;)).</p> <div id="Q2_div" class="problem_question"><p display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_6">How many terms appear in dtmAdded?</p> <fieldset><legend class="visually-hidden">Exercise 2</legend> <div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="6675" /><input type="hidden" id="Q2_tolerance" value="0" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S2_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S2_div" class="problem_solution" tabindex="-1" display_name="Problem 1.2 - Bags of Words" url_name="Problem_1_2_Bags_of_Words_8"><div class="detailed-solution"><p>Explanation</p> <p>The following are the commands needed to execute these four steps:</p> <p>corpusAdded = Corpus(VectorSource(wiki$Added))</p> <p>corpusAdded = tm_map(corpusAdded, removeWords, stopwords(&quot;english&quot;))</p> <p>corpusAdded = tm_map(corpusAdded, stemDocument)</p> <p>dtmAdded = DocumentTermMatrix(corpusAdded)</p> <p>If you type dtmAdded, you can see that there are 6675 terms.</p></div></div> <div class="action"><button id="Q2_button" onclick="checkAnswer({2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q2_button_show" onclick="showHideSolution({2: 'numerical'}, 2, [2])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.3 - Bags of Words</h2> <div class="self_assessment"><div id="Q3_div" class="problem_question"><p display_name="Problem 1.3 - Bags of Words" url_name="Problem_1_3_Bags_of_Words_0">Filter out sparse terms by keeping only terms that appear in 0.3% or more of the revisions, and call the new matrix sparseAdded. How many terms appear in sparseAdded?</p> <fieldset><legend class="visually-hidden">Exercise 3</legend> <div class="choice"><label id="Q3_label"><span id="Q3_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q3_input" value="" onkeypress="numericTypedOrDropDownSelected(3)" class="problem_text_input" /><input type="hidden" id="Q3_ans" value="166" /><input type="hidden" id="Q3_tolerance" value="0" /><span id="Q3_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S3_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S3_div" class="problem_solution" tabindex="-1" display_name="Problem 1.3 - Bags of Words" url_name="Problem_1_3_Bags_of_Words_2"><div class="detailed-solution"><p>Explanation</p> <p>You can create the sparse matrix with the follow line:</p> <p>sparseAdded = removeSparseTerms(dtmAdded, 0.997)</p> <p>If you type sparseAdded, you can see that there are 166 terms.</p></div></div> <div class="action"><button id="Q3_button" onclick="checkAnswer({3: 'numerical'})" class="problem_mo_button">Check</button><button id="Q3_button_show" onclick="showHideSolution({3: 'numerical'}, 3, [3])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.4 - Bags of Words</h2> <div class="self_assessment"><p display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_0">Convert sparseAdded to a data frame called wordsAdded, and then prepend all the words with the letter A, by using the command:</p> <p display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_1">colnames(wordsAdded) = paste(&quot;A&quot;, colnames(wordsAdded))</p> <div id="S4_div" class="problem_solution" tabindex="-1" display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_2"><div class="detailed-solution"><p>Explanation</p> <p>You need to type the following two commands:</p> <p>wordsAdded = as.data.frame(as.matrix(sparseAdded))</p> <p>colnames(wordsAdded) = paste(&quot;A&quot;, colnames(wordsAdded))</p></div></div> <p display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_3">Now repeat all of the steps we've done so far (create a corpus, remove stop words, stem the document, create a sparse document term matrix, and convert it to a data frame) to create a Removed bag-of-words dataframe, called wordsRemoved, except this time, prepend all of the words with the letter R:</p> <p display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_4">colnames(wordsRemoved) = paste(&quot;R&quot;, colnames(wordsRemoved))</p> <div id="Q4_div" class="problem_question"><p display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_5">How many words are in the wordsRemoved data frame?</p> <fieldset><legend class="visually-hidden">Exercise 4</legend> <div class="choice"><label id="Q4_label"><span id="Q4_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q4_input" value="" onkeypress="numericTypedOrDropDownSelected(4)" class="problem_text_input" /><input type="hidden" id="Q4_ans" value="162" /><input type="hidden" id="Q4_tolerance" value="0" /><span id="Q4_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S4_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S5_div" class="problem_solution" tabindex="-1" display_name="Problem 1.4 - Bags of Words" url_name="Problem_1_4_Bags_of_Words_7"><div class="detailed-solution"><p>Explanation</p> <p>To repeat the steps for the Removed column, use the following commands:</p> <p>corpusRemoved = Corpus(VectorSource(wiki$Removed))</p> <p>corpusRemoved = tm_map(corpusRemoved, removeWords, stopwords(&quot;english&quot;))</p> <p>corpusRemoved = tm_map(corpusRemoved, stemDocument)</p> <p>dtmRemoved = DocumentTermMatrix(corpusRemoved)</p> <p>sparseRemoved = removeSparseTerms(dtmRemoved, 0.997)</p> <p>wordsRemoved = as.data.frame(as.matrix(sparseRemoved))</p> <p>colnames(wordsRemoved) = paste(&quot;R&quot;, colnames(wordsRemoved))</p> <p>To see that there are 162 words in the wordsRemoved data frame, you can type ncol(wordsRemoved) in your R console.</p></div></div> <div class="action"><button id="Q4_button" onclick="checkAnswer({4: 'numerical'})" class="problem_mo_button">Check</button><button id="Q4_button_show" onclick="showHideSolution({4: 'numerical'}, 4, [4, 5])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.5 - Bags of Words</h2> <div class="self_assessment"><p display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_0">Combine the two data frames into a data frame called wikiWords with the following line of code:</p> <p display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_1">wikiWords = cbind(wordsAdded, wordsRemoved)</p> <p display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_2">The cbind function combines two sets of variables for the same observations into one data frame. Then add the Vandal column (HINT: remember how we added the dependent variable back into our data frame in the Twitter lecture). Set the random seed to 123 and then split the data set using sample.split from the &quot;caTools&quot; package to put 70% in the training set.</p> <div id="S6_div" class="problem_solution" tabindex="-1" display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_3"><div class="detailed-solution"><p>Explanation</p> <p>You can combine the two data frames by using the command:</p> <p>wikiWords = cbind(wordsAdded, wordsRemoved)</p> <p>And then add the Vandal variable by using the command:</p> <p>wikiWords$Vandal = wiki$Vandal</p> <p>To split the data, you can use the following commands:</p> <p>library(caTools)</p> <p>set.seed(123)</p> <p>spl = sample.split(wikiWords$Vandal, SplitRatio = 0.7)</p> <p>wikiTrain = subset(wikiWords, spl==TRUE)</p> <p>wikiTest = subset(wikiWords, spl==FALSE)</p></div></div> <div id="Q5_div" class="problem_question"><p display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_4">What is the accuracy on the test set of a baseline method that always predicts &quot;not vandalism&quot; (the most frequent outcome)?</p> <fieldset><legend class="visually-hidden">Exercise 5</legend> <div class="choice"><label id="Q5_label"><span id="Q5_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q5_input" value="" onkeypress="numericTypedOrDropDownSelected(5)" class="problem_text_input" /><input type="hidden" id="Q5_ans" value="0.531" /><input type="hidden" id="Q5_tolerance" value="1%" /><span id="Q5_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S5_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S7_div" class="problem_solution" tabindex="-1" display_name="Problem 1.5 - Bags of Words" url_name="Problem_1_5_Bags_of_Words_6"><div class="detailed-solution"><p>Explanation</p> <p>You can compute this number using the table command:</p> <p>table(wikiTest$Vandal)</p> <p>It outputs that there are 618 observations with value 0, and 545 observations with value 1. The accuracy of the baseline method would be 618/(618+545) = 0.531.</p></div></div> <div class="action"><button id="Q5_button" onclick="checkAnswer({5: 'numerical'})" class="problem_mo_button">Check</button><button id="Q5_button_show" onclick="showHideSolution({5: 'numerical'}, 5, [6, 7])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.6 - Bags of Words</h2> <div class="self_assessment"><p display_name="Problem 1.6 - Bags of Words" url_name="Problem_1_6_Bags_of_Words_0">Build a CART model to predict Vandal, using all of the other variables as independent variables. Use the training set to build the model and the default parameters (don't set values for minbucket or cp).</p> <div id="Q6_div" class="problem_question"><p display_name="Problem 1.6 - Bags of Words" url_name="Problem_1_6_Bags_of_Words_1">What is the accuracy of the model on the test set, using a threshold of 0.5? (Remember that if you add the argument type=&quot;class&quot; when making predictions, the output of predict will automatically use a threshold of 0.5.)</p> <fieldset><legend class="visually-hidden">Exercise 6</legend> <div class="choice"><label id="Q6_label"><span id="Q6_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q6_input" value="" onkeypress="numericTypedOrDropDownSelected(6)" class="problem_text_input" /><input type="hidden" id="Q6_ans" value="0.5417" /><input type="hidden" id="Q6_tolerance" value="1%" /><span id="Q6_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S6_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S8_div" class="problem_solution" tabindex="-1" display_name="Problem 1.6 - Bags of Words" url_name="Problem_1_6_Bags_of_Words_3"><div class="detailed-solution"><p>Explanation</p> <p>You can build the CART model with the following command:</p> <p>wikiCART = rpart(Vandal ~ ., data=wikiTrain, method=&quot;class&quot;)</p> <p>And then make predictions on the test set:</p> <p>testPredictCART = predict(wikiCART, newdata=wikiTest, type=&quot;class&quot;)</p> <p>And compute the accuracy by comparing the actual values to the predicted values:</p> <p>table(wikiTest$Vandal, testPredictCART)</p> <p>The accuracy is (618+12)/(618+533+12) = 0.5417.</p></div></div> <div class="action"><button id="Q6_button" onclick="checkAnswer({6: 'numerical'})" class="problem_mo_button">Check</button><button id="Q6_button_show" onclick="showHideSolution({6: 'numerical'}, 6, [8])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.7 - Bags of Words</h2> <div class="self_assessment"><div id="Q7_div" class="problem_question"><p display_name="Problem 1.7 - Bags of Words" url_name="Problem_1_7_Bags_of_Words_0">Plot the CART tree. How many word stems does the CART model use?</p> <fieldset><legend class="visually-hidden">Exercise 7</legend> <div class="choice"><label id="Q7_label"><span id="Q7_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q7_input" value="" onkeypress="numericTypedOrDropDownSelected(7)" class="problem_text_input" /><input type="hidden" id="Q7_ans" value="2" /><input type="hidden" id="Q7_tolerance" value="0" /><span id="Q7_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S7_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S9_div" class="problem_solution" tabindex="-1" display_name="Problem 1.7 - Bags of Words" url_name="Problem_1_7_Bags_of_Words_2"><div class="detailed-solution"><p>Explanation</p> <p>If you plot the tree with prp(wikiCART), you can see that the tree uses two words: &quot;R arbitr&quot; and &quot;R thousa&quot;.</p></div></div> <div class="action"><button id="Q7_button" onclick="checkAnswer({7: 'numerical'})" class="problem_mo_button">Check</button><button id="Q7_button_show" onclick="showHideSolution({7: 'numerical'}, 7, [9])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 1.8 - Bags of Words</h2> <div class="self_assessment"><div id="Q8_div" class="problem_question"><p display_name="Problem 1.8 - Bags of Words" url_name="Problem_1_8_Bags_of_Words_0">Given the performance of the CART model relative to the baseline, what is the best explanation of these results?</p> <fieldset><legend class="visually-hidden">Exercise 8</legend> <div class="choice"><label id="Q8_input_1_label"><span id="Q8_input_1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><input type="radio" id="Q8_input_1" onclick="optionSelected(8)" name="Q8_input" class="problem_radio_input" correct="false" /><span class="choice">We have a bad testing/training split.</span><span id="Q8_input_1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <div class="choice"><label id="Q8_input_2_label"><span id="Q8_input_2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><input type="radio" id="Q8_input_2" onclick="optionSelected(8)" name="Q8_input" class="problem_radio_input" correct="false" /><span class="choice">The CART model overfits to the training set.</span><span id="Q8_input_2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <div class="choice"><label id="Q8_input_3_label"><span id="Q8_input_3_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><input type="radio" id="Q8_input_3" onclick="optionSelected(8)" name="Q8_input" class="problem_radio_input" correct="true" /><span class="choice">Although it beats the baseline, bag of words is not very predictive for this problem.</span><span id="Q8_input_3_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <div class="choice"><label id="Q8_input_4_label"><span id="Q8_input_4_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><input type="radio" id="Q8_input_4" onclick="optionSelected(8)" name="Q8_input" class="problem_radio_input" correct="false" /><span class="choice">We over-sparsified the document-term matrix.</span><span id="Q8_input_4_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> </fieldset></div> <div id="S10_div" class="problem_solution" tabindex="-1" display_name="Problem 1.8 - Bags of Words" url_name="Problem_1_8_Bags_of_Words_2"><div class="detailed-solution"><p>Explanation</p> <p>There is no reason to think there was anything wrong with the split. CART did not overfit, which you can check by computing the accuracy of the model on the training set. Over-sparsification is plausible but unlikely, since we selected a very high sparsity parameter. The only conclusion left is simply that bag of words didn't work very well in this case.</p></div></div> <div class="action"><button id="Q8_button" onclick="checkAnswer({8: 'multiple_choice'})" class="problem_mo_button">Check</button><button id="Q8_button_show" onclick="showHideSolution({8: 'multiple_choice'}, 8, [10])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 2.1 - Problem-specific Knowledge</h2> <div class="self_assessment"><p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_0">We weren't able to improve on the baseline using the raw textual information. More specifically, the words themselves were not useful. There are other options though, and in this section we will try two techniques - identifying a key class of words, and counting words.</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_1">The key class of words we will use are website addresses. &quot;Website addresses&quot; (also known as URLs - Uniform Resource Locators) are comprised of two main parts. An example would be &quot;http://www.google.com&quot;. The first part is the protocol, which is usually &quot;http&quot; (HyperText Transfer Protocol). The second part is the address of the site, e.g. &quot;www.google.com&quot;. We have stripped all punctuation so links to websites appear in the data as one word, e.g. &quot;httpwwwgooglecom&quot;. We hypothesize that given that a lot of vandalism seems to be adding links to promotional or irrelevant websites, the presence of a web address is a sign of vandalism.</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_2">We can search for the presence of a web address in the words added by searching for &quot;http&quot; in the Added column. The grepl function returns TRUE if a string is found in another string, e.g.</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_3">grepl(&quot;cat&quot;,&quot;dogs and cats&quot;,fixed=TRUE) # TRUE</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_4">grepl(&quot;cat&quot;,&quot;dogs and rats&quot;,fixed=TRUE) # FALSE</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_5">Create a copy of your dataframe from the previous question:</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_6">wikiWords2 = wikiWords</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_7">Make a new column in wikiWords2 that is 1 if &quot;http&quot; was in Added:</p> <p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_8">wikiWords2$HTTP = ifelse(grepl(&quot;http&quot;,wiki$Added,fixed=TRUE), 1, 0)</p> <div id="Q9_div" class="problem_question"><p display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_9">Based on this new column, how many revisions added a link?</p> <fieldset><legend class="visually-hidden">Exercise 9</legend> <div class="choice"><label id="Q9_label"><span id="Q9_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q9_input" value="" onkeypress="numericTypedOrDropDownSelected(9)" class="problem_text_input" /><input type="hidden" id="Q9_ans" value="217" /><input type="hidden" id="Q9_tolerance" value="0" /><span id="Q9_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S9_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S11_div" class="problem_solution" tabindex="-1" display_name="Problem 2.1 - Problem-specific Knowledge" url_name="Problem_2_1_Problem_specific_Knowledge_11"><div class="detailed-solution"><p>Explanation</p> <p>You can find this number by typing table(wikiWords2$HTTP), and seeing that there are 217 observations with value 1.</p></div></div> <div class="action"><button id="Q9_button" onclick="checkAnswer({9: 'numerical'})" class="problem_mo_button">Check</button><button id="Q9_button_show" onclick="showHideSolution({9: 'numerical'}, 9, [11])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 2.2 - Problem-Specific Knowledge</h2> <div class="self_assessment"><p display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_0">In problem 1.5, you computed a vector called &quot;spl&quot; that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets:</p> <p display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_1">wikiTrain2 = subset(wikiWords2, spl==TRUE)</p> <p display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_2">wikiTest2 = subset(wikiWords2, spl==FALSE)</p> <p display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_3">Then create a new CART model using this new variable as one of the independent variables.</p> <div id="Q10_div" class="problem_question"><p display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_4">What is the new accuracy of the CART model on the test set, using a threshold of 0.5?</p> <fieldset><legend class="visually-hidden">Exercise 10</legend> <div class="choice"><label id="Q10_label"><span id="Q10_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q10_input" value="" onkeypress="numericTypedOrDropDownSelected(10)" class="problem_text_input" /><input type="hidden" id="Q10_ans" value="0.5726569" /><input type="hidden" id="Q10_tolerance" value="1%" /><span id="Q10_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S10_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S12_div" class="problem_solution" tabindex="-1" display_name="Problem 2.2 - Problem-Specific Knowledge" url_name="Problem_2_2_Problem_Specific_Knowledge_6"><div class="detailed-solution"><p>Explanation</p> <p>You can compute this by running the following commands:</p> <p>wikiCART2 = rpart(Vandal ~ ., data=wikiTrain2, method=&quot;class&quot;)</p> <p>testPredictCART2 = predict(wikiCART2, newdata=wikiTest2, type=&quot;class&quot;)</p> <p>table(wikiTest2$Vandal, testPredictCART2)</p> <p>Then the accuracy is (609+57)/(609+9+488+57) = 0.5726569.</p></div></div> <div class="action"><button id="Q10_button" onclick="checkAnswer({10: 'numerical'})" class="problem_mo_button">Check</button><button id="Q10_button_show" onclick="showHideSolution({10: 'numerical'}, 10, [12])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 2.3 - Problem-Specific Knowledge</h2> <div class="self_assessment"><p display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_0">Another possibility is that the number of words added and removed is predictive, perhaps more so than the actual words themselves. We already have a word count available in the form of the document-term matrices (DTMs).</p> <p display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_1">Sum the rows of dtmAdded and dtmRemoved and add them as new variables in your data frame wikiWords2 (called NumWordsAdded and NumWordsRemoved) by using the following commands:</p> <p display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_2">wikiWords2$NumWordsAdded = rowSums(as.matrix(dtmAdded))</p> <p display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_3">wikiWords2$NumWordsRemoved = rowSums(as.matrix(dtmRemoved))</p> <div id="Q11_div" class="problem_question"><p display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_4">What is the average number of words added?</p> <fieldset><legend class="visually-hidden">Exercise 11</legend> <div class="choice"><label id="Q11_label"><span id="Q11_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q11_input" value="" onkeypress="numericTypedOrDropDownSelected(11)" class="problem_text_input" /><input type="hidden" id="Q11_ans" value="4.05" /><input type="hidden" id="Q11_tolerance" value="1%" /><span id="Q11_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S11_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S13_div" class="problem_solution" tabindex="-1" display_name="Problem 2.3 - Problem-Specific Knowledge" url_name="Problem_2_3_Problem_Specific_Knowledge_6"><div class="detailed-solution"><p>Explanation</p> <p>You can get this answer with mean(wikiWords2$NumWordsAdded).</p></div></div> <div class="action"><button id="Q11_button" onclick="checkAnswer({11: 'numerical'})" class="problem_mo_button">Check</button><button id="Q11_button_show" onclick="showHideSolution({11: 'numerical'}, 11, [13])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 2.4 - Problem-Specific Knowledge</h2> <div class="self_assessment"><p display_name="Problem 2.4 - Problem-Specific Knowledge" url_name="Problem_2_4_Problem_Specific_Knowledge_0">In problem 1.5, you computed a vector called &quot;spl&quot; that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets with wikiWords2. Create the CART model again (using the training set and the default parameters).</p> <div id="Q12_div" class="problem_question"><p display_name="Problem 2.4 - Problem-Specific Knowledge" url_name="Problem_2_4_Problem_Specific_Knowledge_1">What is the new accuracy of the CART model on the test set?</p> <fieldset><legend class="visually-hidden">Exercise 12</legend> <div class="choice"><label id="Q12_label"><span id="Q12_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q12_input" value="" onkeypress="numericTypedOrDropDownSelected(12)" class="problem_text_input" /><input type="hidden" id="Q12_ans" value="0.6552021" /><input type="hidden" id="Q12_tolerance" value="1%" /><span id="Q12_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S12_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S14_div" class="problem_solution" tabindex="-1" display_name="Problem 2.4 - Problem-Specific Knowledge" url_name="Problem_2_4_Problem_Specific_Knowledge_3"><div class="detailed-solution"><p>Explanation</p> <p>To split the data again, use the following commands:</p> <p>wikiTrain3 = subset(wikiWords2, spl==TRUE)</p> <p>wikiTest3 = subset(wikiWords2, spl==FALSE)</p> <p>You can compute the accuracy of the new CART model with the following commands:</p> <p>wikiCART3 = rpart(Vandal ~ ., data=wikiTrain3, method=&quot;class&quot;)</p> <p>testPredictCART3 = predict(wikiCART3, newdata=wikiTest3, type=&quot;class&quot;)</p> <p>table(wikiTest3$Vandal, testPredictCART3)</p> <p>The accuracy is (514+248)/(514+104+297+248) = 0.6552021.</p></div></div> <div class="action"><button id="Q12_button" onclick="checkAnswer({12: 'numerical'})" class="problem_mo_button">Check</button><button id="Q12_button_show" onclick="showHideSolution({12: 'numerical'}, 12, [14])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 3.1 - Using Non-Textual Data</h2> <div class="self_assessment"><p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_0">We have two pieces of &quot;metadata&quot; (data about data) that we haven't yet used. Make a copy of wikiWords2, and call it wikiWords3:</p> <p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_1">wikiWords3 = wikiWords2</p> <p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_2">Then add the two original variables Minor and Loggedin to this new data frame:</p> <p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_3">wikiWords3$Minor = wiki$Minor</p> <p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_4">wikiWords3$Loggedin = wiki$Loggedin</p> <p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_5">In problem 1.5, you computed a vector called &quot;spl&quot; that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets with wikiWords3.</p> <div id="S15_div" class="problem_solution" tabindex="-1" display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_6"><div class="detailed-solution"><p>Explanation</p> <p>This can be done with the following two commands:</p> <p>wikiTrain4 = subset(wikiWords3, spl==TRUE)</p> <p>wikiTest4 = subset(wikiWords3, spl==FALSE)</p></div></div> <div id="Q13_div" class="problem_question"><p display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_7">Build a CART model using all the training data. What is the accuracy of the model on the test set?</p> <fieldset><legend class="visually-hidden">Exercise 13</legend> <div class="choice"><label id="Q13_label"><span id="Q13_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q13_input" value="" onkeypress="numericTypedOrDropDownSelected(13)" class="problem_text_input" /><input type="hidden" id="Q13_ans" value="0.7188306" /><input type="hidden" id="Q13_tolerance" value="1%" /><span id="Q13_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S13_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S16_div" class="problem_solution" tabindex="-1" display_name="Problem 3.1 - Using Non-Textual Data" url_name="Problem_3_1_Using_Non_Textual_Data_9"><div class="detailed-solution"><p>Explanation</p> <p>This model can be built and evaluated using the following commands:</p> <p>wikiCART4 = rpart(Vandal ~ ., data=wikiTrain4, method=&quot;class&quot;)</p> <p>predictTestCART4 = predict(wikiCART4, newdata=wikiTest4, type=&quot;class&quot;)</p> <p>table(wikiTest4$Vandal, predictTestCART4)</p> <p>The accuracy of the model is (595+241)/(595+23+304+241) = 0.7188306.</p></div></div> <div class="action"><button id="Q13_button" onclick="checkAnswer({13: 'numerical'})" class="problem_mo_button">Check</button><button id="Q13_button_show" onclick="showHideSolution({13: 'numerical'}, 13, [15, 16])" class="problem_mo_button">Show Answer</button></div></div> <h2 class="subhead">Problem 3.2 - Using Non-Textual Data</h2> <div class="self_assessment"><p display_name="Problem 3.2 - Using Non-Textual Data" url_name="Problem_3_2_Using_Non_Textual_Data_0">There is a substantial difference in the accuracy of the model using the meta data. Is this because we made a more complicated model?</p> <div id="Q14_div" class="problem_question"><p display_name="Problem 3.2 - Using Non-Textual Data" url_name="Problem_3_2_Using_Non_Textual_Data_1">Plot the CART tree. How many splits are there in the tree?</p> <fieldset><legend class="visually-hidden">Exercise 14</legend> <div class="choice"><label id="Q14_label"><span id="Q14_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q14_input" value="" onkeypress="numericTypedOrDropDownSelected(14)" class="problem_text_input" /><input type="hidden" id="Q14_ans" value="3" /><input type="hidden" id="Q14_tolerance" value="0" /><span id="Q14_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div> <p id="S14_ans" tabindex="-1" class="problem_answer">&nbsp;</p> </fieldset></div> <div id="S17_div" class="problem_solution" tabindex="-1" display_name="Problem 3.2 - Using Non-Textual Data" url_name="Problem_3_2_Using_Non_Textual_Data_3"><div class="detailed-solution"><p>Explanation</p> <p>You can plot the tree with prp(wikiCART4). The first split is on the variable &quot;Loggedin&quot;, the second split is on the number of words added, and the third split is on the number of words removed.</p> <p>By adding new independent variables, we were able to significantly improve our accuracy without making the model more complicated!</p></div></div> <div class="action"><button id="Q14_button" onclick="checkAnswer({14: 'numerical'})" class="problem_mo_button">Check</button><button id="Q14_button_show" onclick="showHideSolution({14: 'numerical'}, 14, [17])" class="problem_mo_button">Show Answer</button></div></div> <ul class="navigation progress">     <li id="bck_btn"><a href="./resolveuid/81eae0fd28f287336b792210ba33dfbb">Back<span>Assignment 5</span></a></li>     <li id="continue_btn"><a href="./resolveuid/f9baad347f956b6f860866551433d510">Continue<span>Automating Reviews in Medicine</span></a></li> </ul> <p>&nbsp;</p>
+
+*   [\<Assignment 5]({{< baseurl >}}/pages/text-analytics/assignment-5)
+*   [5.5.1Separating Spam from Ham (Part 1)]({{< baseurl >}}/pages/text-analytics/assignment-5)
+*   [5.5.2Detecting Vandalism on Wikipedia]({{< baseurl >}}/pages/text-analytics/assignment-5/detecting-vandalism-on-wikipedia)
+*   [5.5.3Automating Reviews in Medicine]({{< baseurl >}}/pages/text-analytics/assignment-5/automating-reviews-in-medicine)
+*   [\>Automating Reviews in Medicine]({{< baseurl >}}/pages/text-analytics/assignment-5/automating-reviews-in-medicine)
+
+Detecting Vandalism on Wikipedia
+--------------------------------
+
+[Wikipedia](http://en.wikipedia.org/wiki/Wikipedia) is a free online encyclopedia that anyone can edit and contribute to. It is available in many languages and is growing all the time. On the English language version of Wikipedia:
+
+*   There are currently [4.7 million pages](http://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia)\*.
+*   There have been a total over [760 million edits](http://en.wikipedia.org/wiki/Wikipedia:Pruning_article_revisions)\* (also called revisions) over its lifetime.
+*   There are approximately [130,000 edits per day](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Editing_trends/Raw_data/Revisions_per_day)\*.
+
+\* At time of 15.071x course publication.
+
+One of the consequences of being editable by anyone is that some people _vandalize_ pages. This can take the form of removing content, adding promotional or inappropriate content, or more subtle shifts that change the meaning of the article. With this many articles and edits per day it is difficult for humans to detect all instances of vandalism and _revert_ (undo) them. As a result, Wikipedia uses _bots_ - computer programs that automatically revert edits that look like vandalism. In this assignment we will attempt to develop a vandalism detector that uses machine learning to distinguish between a valid edit and vandalism.
+
+The data for this problem is based on the revision history of the page [Language](http://en.wikipedia.org/wiki/Language). Wikipedia provides a history for each page that consists of the state of the page at each revision. Rather than manually considering each revision, a script was run that checked whether edits stayed or were reverted. If a change was eventually reverted then that revision is marked as vandalism. This may result in some misclassifications, but the script performs well enough for our needs.
+
+As a result of this preprocessing, some common processing tasks have already been done, including lower-casing and punctuation removal. The columns in the dataset are:
+
+*   Vandal = 1 if this edit was vandalism, 0 if not.
+*   Minor = 1 if the user marked this edit as a "minor edit", 0 if not.
+*   Loggedin = 1 if the user made this edit while using a Wikipedia account, 0 if they did not.
+*   Added = The _unique_ words added.
+*   Removed = The _unique_ words removed.
+
+Notice the repeated use of _unique_. The data we have available is not the traditional bag of words - rather it is the set of words that were removed or added. For example, if a word was removed multiple times in a revision it will only appear one time in the "Removed" column.
+
+Problem 1.1 - Bags of Words
+---------------------------
+
+Load the data [wiki (CSV)]({{< baseurl >}}/resources/wiki) with the option stringsAsFactors=FALSE, calling the data frame "wiki". Convert the "Vandal" column to a factor using the command wiki$Vandal = as.factor(wiki$Vandal).
+
+How many cases of vandalism were detected in the history of this page?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.2 - Bags of Words
+---------------------------
+
+We will now use the bag of words approach to build a model. We have two columns of textual data, with different meanings. For example, adding rude words has a different meaning than removing rude words. We'll start like we did in class by building a document term matrix from the Added column. The text already is lowercase and stripped of punctuation. So to pre-process the data, just complete the following four steps:
+
+1) Create the corpus for the Added column, and call it "corpusAdded".
+
+2) Remove the English-language stopwords.
+
+3) Stem the words.
+
+4) Build the DocumentTermMatrix, and call it dtmAdded.
+
+If the code length(stopwords("english")) does not return 174 for you, then please run the line of code in [stopwords (TXT) file]({{< baseurl >}}/resources/stopwords-3), which will store the standard stop words in a variable called sw. When removing stop words, use tm\_map(corpusAdded, removeWords, sw) instead of tm\_map(corpusAdded, removeWords, stopwords("english")).
+
+How many terms appear in dtmAdded?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.3 - Bags of Words
+---------------------------
+
+Filter out sparse terms by keeping only terms that appear in 0.3% or more of the revisions, and call the new matrix sparseAdded. How many terms appear in sparseAdded?
+
+Exercise 3
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.4 - Bags of Words
+---------------------------
+
+Convert sparseAdded to a data frame called wordsAdded, and then prepend all the words with the letter A, by using the command:
+
+colnames(wordsAdded) = paste("A", colnames(wordsAdded))
+
+Explanation
+
+You need to type the following two commands:
+
+wordsAdded = as.data.frame(as.matrix(sparseAdded))
+
+colnames(wordsAdded) = paste("A", colnames(wordsAdded))
+
+Now repeat all of the steps we've done so far (create a corpus, remove stop words, stem the document, create a sparse document term matrix, and convert it to a data frame) to create a Removed bag-of-words dataframe, called wordsRemoved, except this time, prepend all of the words with the letter R:
+
+colnames(wordsRemoved) = paste("R", colnames(wordsRemoved))
+
+How many words are in the wordsRemoved data frame?
+
+Exercise 4
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.5 - Bags of Words
+---------------------------
+
+Combine the two data frames into a data frame called wikiWords with the following line of code:
+
+wikiWords = cbind(wordsAdded, wordsRemoved)
+
+The cbind function combines two sets of variables for the same observations into one data frame. Then add the Vandal column (HINT: remember how we added the dependent variable back into our data frame in the Twitter lecture). Set the random seed to 123 and then split the data set using sample.split from the "caTools" package to put 70% in the training set.
+
+Explanation
+
+You can combine the two data frames by using the command:
+
+wikiWords = cbind(wordsAdded, wordsRemoved)
+
+And then add the Vandal variable by using the command:
+
+wikiWords$Vandal = wiki$Vandal
+
+To split the data, you can use the following commands:
+
+library(caTools)
+
+set.seed(123)
+
+spl = sample.split(wikiWords$Vandal, SplitRatio = 0.7)
+
+wikiTrain = subset(wikiWords, spl==TRUE)
+
+wikiTest = subset(wikiWords, spl==FALSE)
+
+What is the accuracy on the test set of a baseline method that always predicts "not vandalism" (the most frequent outcome)?
+
+Exercise 5
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.6 - Bags of Words
+---------------------------
+
+Build a CART model to predict Vandal, using all of the other variables as independent variables. Use the training set to build the model and the default parameters (don't set values for minbucket or cp).
+
+What is the accuracy of the model on the test set, using a threshold of 0.5? (Remember that if you add the argument type="class" when making predictions, the output of predict will automatically use a threshold of 0.5.)
+
+Exercise 6
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.7 - Bags of Words
+---------------------------
+
+Plot the CART tree. How many word stems does the CART model use?
+
+Exercise 7
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 1.8 - Bags of Words
+---------------------------
+
+{{< quiz_multiple_choice questionId="Q8_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;We have a bad testing/training split.&nbsp;{{< /quiz_choice >}}
+{{< quiz_choice isCorrect="false" >}}&nbsp;The CART model overfits to the training set.&nbsp;{{< /quiz_choice >}}
+{{< quiz_choice isCorrect="true" >}}&nbsp;Although it beats the baseline, bag of words is not very predictive for this problem.&nbsp;{{< /quiz_choice >}}
+{{< quiz_choice isCorrect="false" >}}&nbsp;We over-sparsified the document-term matrix.&nbsp;{{< /quiz_choice >}}{{< /quiz_choices >}}
+{{< quiz_solution >}}Explanation
+
+There is no reason to think there was anything wrong with the split. CART did not overfit, which you can check by computing the accuracy of the model on the training set. Over-sparsification is plausible but unlikely, since we selected a very high sparsity parameter. The only conclusion left is simply that bag of words didn't work very well in this case.{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
+
+Problem 2.1 - Problem-specific Knowledge
+----------------------------------------
+
+We weren't able to improve on the baseline using the raw textual information. More specifically, the words themselves were not useful. There are other options though, and in this section we will try two techniques - identifying a key class of words, and counting words.
+
+The key class of words we will use are website addresses. "Website addresses" (also known as URLs - Uniform Resource Locators) are comprised of two main parts. An example would be "http://www.google.com". The first part is the protocol, which is usually "http" (HyperText Transfer Protocol). The second part is the address of the site, e.g. "www.google.com". We have stripped all punctuation so links to websites appear in the data as one word, e.g. "httpwwwgooglecom". We hypothesize that given that a lot of vandalism seems to be adding links to promotional or irrelevant websites, the presence of a web address is a sign of vandalism.
+
+We can search for the presence of a web address in the words added by searching for "http" in the Added column. The grepl function returns TRUE if a string is found in another string, e.g.
+
+grepl("cat","dogs and cats",fixed=TRUE) # TRUE
+
+grepl("cat","dogs and rats",fixed=TRUE) # FALSE
+
+Create a copy of your dataframe from the previous question:
+
+wikiWords2 = wikiWords
+
+Make a new column in wikiWords2 that is 1 if "http" was in Added:
+
+wikiWords2$HTTP = ifelse(grepl("http",wiki$Added,fixed=TRUE), 1, 0)
+
+Based on this new column, how many revisions added a link?
+
+Exercise 9
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 2.2 - Problem-Specific Knowledge
+----------------------------------------
+
+In problem 1.5, you computed a vector called "spl" that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets:
+
+wikiTrain2 = subset(wikiWords2, spl==TRUE)
+
+wikiTest2 = subset(wikiWords2, spl==FALSE)
+
+Then create a new CART model using this new variable as one of the independent variables.
+
+What is the new accuracy of the CART model on the test set, using a threshold of 0.5?
+
+Exercise 10
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 2.3 - Problem-Specific Knowledge
+----------------------------------------
+
+Another possibility is that the number of words added and removed is predictive, perhaps more so than the actual words themselves. We already have a word count available in the form of the document-term matrices (DTMs).
+
+Sum the rows of dtmAdded and dtmRemoved and add them as new variables in your data frame wikiWords2 (called NumWordsAdded and NumWordsRemoved) by using the following commands:
+
+wikiWords2$NumWordsAdded = rowSums(as.matrix(dtmAdded))
+
+wikiWords2$NumWordsRemoved = rowSums(as.matrix(dtmRemoved))
+
+What is the average number of words added?
+
+Exercise 11
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 2.4 - Problem-Specific Knowledge
+----------------------------------------
+
+In problem 1.5, you computed a vector called "spl" that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets with wikiWords2. Create the CART model again (using the training set and the default parameters).
+
+What is the new accuracy of the CART model on the test set?
+
+Exercise 12
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 3.1 - Using Non-Textual Data
+------------------------------------
+
+We have two pieces of "metadata" (data about data) that we haven't yet used. Make a copy of wikiWords2, and call it wikiWords3:
+
+wikiWords3 = wikiWords2
+
+Then add the two original variables Minor and Loggedin to this new data frame:
+
+wikiWords3$Minor = wiki$Minor
+
+wikiWords3$Loggedin = wiki$Loggedin
+
+In problem 1.5, you computed a vector called "spl" that identified the observations to put in the training and testing sets. Use that variable (do not recompute it with sample.split) to make new training and testing sets with wikiWords3.
+
+Explanation
+
+This can be done with the following two commands:
+
+wikiTrain4 = subset(wikiWords3, spl==TRUE)
+
+wikiTest4 = subset(wikiWords3, spl==FALSE)
+
+Build a CART model using all the training data. What is the accuracy of the model on the test set?
+
+Exercise 13
+
+&nbsp;Numerical Response&nbsp;
+
+Problem 3.2 - Using Non-Textual Data
+------------------------------------
+
+There is a substantial difference in the accuracy of the model using the meta data. Is this because we made a more complicated model?
+
+Plot the CART tree. How many splits are there in the tree?
+
+Exercise 14
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackAssignment 5]({{< baseurl >}}/pages/text-analytics/assignment-5)
+*   [ContinueAutomating Reviews in Medicine]({{< baseurl >}}/pages/text-analytics/assignment-5/automating-reviews-in-medicine)

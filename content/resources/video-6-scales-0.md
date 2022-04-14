@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '7.4 The Good, the Bad, and the Ugly: Visualization Recitation  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: Scales'
 uid: ede5f39f-3c0e-d9c7-7ea9-d909d11c6873
 video_files:

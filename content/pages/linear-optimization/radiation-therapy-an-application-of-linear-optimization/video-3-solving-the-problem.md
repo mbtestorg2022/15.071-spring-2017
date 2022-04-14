@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '8.3 Radiation Therapy: An Application of Linear Optimization '
+parent_type: CourseSection
 parent_uid: 7a59278a-134c-5085-244c-381fc6090890
 title: '8.3 Radiation Therapy: An Application of Linear Optimization '
 uid: 45f16175-2649-6ba1-fed2-d4528a0cc423
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-635)
+*   [\<Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-635)
 *   [8.3.1Video 1: Introduction]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization)
 *   [8.3.2Quick Question]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/quick-question-630)
 *   [8.3.3Video 2: An Optimization Problem]({{< baseurl >}}/pages/linear-optimization/radiation-therapy-an-application-of-linear-optimization/video-2-an-optimization-problem)

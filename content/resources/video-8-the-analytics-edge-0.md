@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '3.2 Modeling the Expert: An Introduction to Logistic Regression'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 8: The Analytics Edge'
 uid: d3bf6fce-e70d-0778-5c6c-12c87dfbe83e
 video_files:

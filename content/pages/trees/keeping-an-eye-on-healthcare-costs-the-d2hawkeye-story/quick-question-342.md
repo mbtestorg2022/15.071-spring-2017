@@ -1,17 +1,48 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '4.3 Keeping an Eye on Healthcare Costs: The D2Hawkeye Story '
+parent_type: CourseSection
 parent_uid: 52a221dd-c011-90a4-45b1-a393b15cb810
 title: '4.3 Keeping an Eye on Healthcare Costs: The D2Hawkeye Story '
 uid: 954c1e9d-aed9-ccd1-65dd-85e2287df612
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/b189783b0ca7287f248b0339ea5afbeb"><<span>Video 6: Claims Data in R</span></a></li><li id="flp_btn_1"><a href="./resolveuid/52a221ddc01190a445b1a393b15cb810">4.3.1<span>Video 1: The Story of D2Hawkeye</span></a></li><li id="flp_btn_2"><a href="./resolveuid/b553ee70b40ede789660c10e2ec8c8fd">4.3.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/58916a03dd9252257d4729cceb2a1a43">4.3.3<span>Video 2: Claims Data</span></a></li><li id="flp_btn_4"><a href="./resolveuid/846cd84533f96c0269a8260e985eeaf7">4.3.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/f5fa573c282cd989480a6234fdec7162">4.3.5<span>Video 3: The Variables</span></a></li><li id="flp_btn_6"><a href="./resolveuid/9d93302ec36ebcf9c1a5286d0ec673ee">4.3.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/d35731b01c7f78102382bc22abd10118">4.3.7<span>Video 4: Error Measures</span></a></li><li id="flp_btn_8"><a href="./resolveuid/c679795eed4f1bd8079e7f008721cf38">4.3.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/41da33e58a10b265e28e4f6bd320913a">4.3.9<span>Video 5: CART to Predict Cost</span></a></li><li id="flp_btn_10"><a href="./resolveuid/f24d4a21a158ad7db107ecfb64ec198f">4.3.10<span>Quick Question</span></a></li><li id="flp_btn_11"><a href="./resolveuid/b189783b0ca7287f248b0339ea5afbeb">4.3.11<span>Video 6: Claims Data in R</span></a></li><li id="flp_btn_12" class="button_selected"><a href="./resolveuid/954c1e9daed9ccd165dd85e2287df612">4.3.12<span>Quick Question</span></a></li><li id="flp_btn_13"><a href="./resolveuid/9f0c19816b4e786a4cb964211da05bf8">4.3.13<span>Video 7: Baseline Method and Penalty Matrix</span></a></li><li id="flp_btn_14"><a href="./resolveuid/092222253a2b5d3fb68d5398ca2111a9">4.3.14<span>Quick Question</span></a></li><li id="flp_btn_15"><a href="./resolveuid/42af8e9a43f3ab0e231be7ab1d08c0ca">4.3.15<span>Video 8: Predicting Healthcare Cost in R</span></a></li><li id="flp_btn_16"><a href="./resolveuid/2f9da0d0e4ef29ad6861c462ec145784">4.3.16<span>Quick Question</span></a></li><li id="flp_btn_17"><a href="./resolveuid/bc9ba16df4b1d68bb2a3dfc6700cfac3">4.3.17<span>Video 9: Results</span></a></li><li id="top_continue_btn"><a href="./resolveuid/9f0c19816b4e786a4cb964211da05bf8">><span>Video 7: Baseline Method and Penalty Matrix</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_344">What is the average age of patients in the training set, ClaimsTrain?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="72.64" /><input type="hidden" id="Q1_tolerance" value="0.1" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="Q2_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_346">What proportion of people in the training set (ClaimsTrain) had at least one diagnosis code for diabetes? </p><fieldset><legend class="visually-hidden">Exercise 2</legend><div class="choice"><label id="Q2_label"><span id="Q2_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q2_input" value="" onkeypress="numericTypedOrDropDownSelected(2)" class="problem_text_input" /><input type="hidden" id="Q2_ans" value="0.38" /><input type="hidden" id="Q2_tolerance" value="0.01" /><span id="Q2_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S2_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_348">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>Both of these answers can be found by looking at summary(ClaimsTrain). The mean age should be listed under the age variable, and since diabetes is a binary variable, the mean value of diabetes gives the proportion of people with at least one diagnosis code for diabetes.</p>
-<p>Alternatively, you could use the mean, table, and nrow functions:</p>
-<p>mean(ClaimsTrain$age)</p>
-<p>table(ClaimsTrain$diabetes)/nrow(ClaimsTrain)</p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical', 2: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical', 2: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/b189783b0ca7287f248b0339ea5afbeb">Back<span>Video 6: Claims Data in R</span></a></li><li id="continue_btn"><a href="./resolveuid/9f0c19816b4e786a4cb964211da05bf8">Continue<span>Video 7: Baseline Method and Penalty Matrix</span></a></li></ul>
+
+*   [\<Video 6: Claims Data in R]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-6-claims-data-in-r)
+*   [4.3.1Video 1: The Story of D2Hawkeye]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story)
+*   [4.3.2Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-311)
+*   [4.3.3Video 2: Claims Data]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-2-claims-data)
+*   [4.3.4Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-316)
+*   [4.3.5Video 3: The Variables]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-3-the-variables)
+*   [4.3.6Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-321)
+*   [4.3.7Video 4: Error Measures]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-4-error-measures)
+*   [4.3.8Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-326)
+*   [4.3.9Video 5: CART to Predict Cost]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-5-cart-to-predict-cost)
+*   [4.3.10Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-337)
+*   [4.3.11Video 6: Claims Data in R]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-6-claims-data-in-r)
+*   [4.3.12Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-342)
+*   [4.3.13Video 7: Baseline Method and Penalty Matrix]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-7-baseline-method-and-penalty-matrix)
+*   [4.3.14Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-349)
+*   [4.3.15Video 8: Predicting Healthcare Cost in R]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-8-predicting-healthcare-cost-in-r)
+*   [4.3.16Quick Question]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/quick-question-357)
+*   [4.3.17Video 9: Results]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-9-results)
+*   [\>Video 7: Baseline Method and Penalty Matrix]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-7-baseline-method-and-penalty-matrix)
+
+Quick Question
+--------------
+
+What is the average age of patients in the training set, ClaimsTrain?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+What proportion of people in the training set (ClaimsTrain) had at least one diagnosis code for diabetes?
+
+Exercise 2
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 6: Claims Data in R]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-6-claims-data-in-r)
+*   [ContinueVideo 7: Baseline Method and Penalty Matrix]({{< baseurl >}}/pages/trees/keeping-an-eye-on-healthcare-costs-the-d2hawkeye-story/video-7-baseline-method-and-penalty-matrix)

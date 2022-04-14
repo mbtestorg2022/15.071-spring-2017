@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 7 Visualization
 uid: ab87d151-cf8c-fe95-c873-e816df164d38
 ---

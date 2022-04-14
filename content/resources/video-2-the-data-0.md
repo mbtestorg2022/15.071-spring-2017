@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '4.4 Location, Location, Location: Regression Trees for Housing Data  (Recitation)'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 2: The Data'
 uid: ed82049f-677a-8dce-6959-83b3a25e0bb4
 video_files:

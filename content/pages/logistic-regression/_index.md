@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 3 Logistic Regression
 uid: c4464cf4-9ddb-1a4b-c78c-faa6f93b74de
 ---

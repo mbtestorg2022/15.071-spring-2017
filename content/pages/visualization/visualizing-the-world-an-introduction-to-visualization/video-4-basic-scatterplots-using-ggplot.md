@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.2 Visualizing the World: An Introduction to Visualization'
+parent_type: CourseSection
 parent_uid: 274ac6b9-daf6-cd65-874e-c643ab327953
 title: '7.2 Visualizing the World: An Introduction to Visualization'
 uid: bcd276c5-4387-e04d-4149-dfe97b763b3f
 ---
 
-*   [<Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-515)
+*   [\<Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-515)
 *   [7.2.1Video 1: The Power of Visualizations]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization)
 *   [7.2.2Quick Question]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/quick-question-505)
 *   [7.2.3Video 2: The World Health Organization (WHO)]({{< baseurl >}}/pages/visualization/visualizing-the-world-an-introduction-to-visualization/video-2-the-world-health-organization-who)
@@ -33,7 +36,9 @@ Colors and shapes in R
 
 If you want to see all of the available colors in R, type in your R console:
 
+```
 colors()
+```
 
 All of the available shapes are described in the following image:
 

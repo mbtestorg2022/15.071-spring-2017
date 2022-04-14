@@ -8,6 +8,11 @@ image_metadata:
   credit: ''
   image-alt: U.S. state map indicating unemployment by state by varying shades of
     red.
+learning_resource_types: []
+ocw_type: OCWImage
+parent_title: '7.2 Visualizing the World: An Introduction to Visualization'
+parent_type: CourseSection
+parent_uid: afc1a35a-1de0-dfbe-71d4-6f725359bcfc
 resourcetype: Image
 title: USmap_Week7.jpg
 uid: 2e9e352f-b3c5-db80-2e8d-74e83b053498

@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: 9 Integer Optimization
 uid: db42b40a-d705-f431-a7e2-3a1d11cec341
 ---

@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '1.3 Working with Data: An Introduction to R '
+parent_type: CourseSection
 parent_uid: 1ac933da-13d1-3dfa-2e38-03abf2d6971f
 title: '1.3 Working with Data: An Introduction to R '
 uid: 49c8f31e-6b04-99eb-8a48-b542d04cf7bc
 ---
 
-*   [<Video 3: Vectors and Data Frames]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-3-vectors-and-data-frames)
+*   [\<Video 3: Vectors and Data Frames]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-3-vectors-and-data-frames)
 *   [1.3.1Download and Install R]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r)
 *   [1.3.2Video 1: Why R?]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/video-1-why-r)
 *   [1.3.3Quick Question]({{< baseurl >}}/pages/an-introduction-to-analytics/working-with-data-an-introduction-to-r/quick-question)

@@ -1,21 +1,44 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '7.3 The Analytical Policeman: Visualization for Law and Order'
+parent_type: CourseSection
 parent_uid: 716f78f6-1fe6-c5f4-7370-d7a3c4127827
 title: '7.3 The Analytical Policeman: Visualization for Law and Order'
 uid: 28e5e867-d944-5ea9-aa7c-76de722fcf45
 ---
-<ul class="navigation pagination"><li id="top_bck_btn"><a href="./resolveuid/0d6e8df118b96fff96f8bda53ace64b7"><<span>Video 5: A Geographical Hot Spot Map</span></a></li><li id="flp_btn_1"><a href="./resolveuid/716f78f61fe6c5f47370d7a3c4127827">7.3.1<span>Video 1: Predictive Policing</span></a></li><li id="flp_btn_2"><a href="./resolveuid/55ef385f4486a0de2d074daf0049a5ab">7.3.2<span>Quick Question</span></a></li><li id="flp_btn_3"><a href="./resolveuid/647a1b5c5d6b626d39aa4ad77903806e">7.3.3<span>Video 2: Visualizing Crime Over Time</span></a></li><li id="flp_btn_4"><a href="./resolveuid/78d60ff42d95ea11a4221370f6265996">7.3.4<span>Quick Question</span></a></li><li id="flp_btn_5"><a href="./resolveuid/1bd0d7e9c5ce0101823b0faa796ad873">7.3.5<span>Video 3: A Line Plot</span></a></li><li id="flp_btn_6"><a href="./resolveuid/e685ba718462a41fdc85159d8c6cd469">7.3.6<span>Quick Question</span></a></li><li id="flp_btn_7"><a href="./resolveuid/7a8ce8b691e992d100a83e4b86041a1a">7.3.7<span>Video 4: A Heatmap</span></a></li><li id="flp_btn_8"><a href="./resolveuid/6bc1ec1e1262c5a128e1f822404bb0ba">7.3.8<span>Quick Question</span></a></li><li id="flp_btn_9"><a href="./resolveuid/0d6e8df118b96fff96f8bda53ace64b7">7.3.9<span>Video 5: A Geographical Hot Spot Map</span></a></li><li id="flp_btn_10" class="button_selected"><a href="./resolveuid/28e5e867d9445ea9aa7c76de722fcf45">7.3.10<span>Quick Question</span></a></li><li id="flp_btn_11"><a href="./resolveuid/50eab6cd164e035d9470dc118924f686">7.3.11<span>Video 6: A Heatmap on the United States</span></a></li><li id="flp_btn_12"><a href="./resolveuid/578178b9992bb5c4e6a98dc2f7c1ad78">7.3.12<span>Quick Question</span></a></li><li id="flp_btn_13"><a href="./resolveuid/d2e3fa0cb97ed8cd0b391b4b43303794">7.3.13<span>Video 7: The Analytics Edge</span></a></li><li id="top_continue_btn"><a href="./resolveuid/50eab6cd164e035d9470dc118924f686">><span>Video 6: A Heatmap on the United States</span></a></li></ul><h2 class="subhead">Quick Question</h2><div class="self_assessment">
-<p display_name="Quick Question" url_name="Quick_Question_569">In the previous video, our heatmap was plotting squares out in the water, which seems a little strange. We can fix this by removing the observations from our data frame that have Freq = 0. </p>
-<p display_name="Quick Question" url_name="Quick_Question_570">Take a subset of LatLonCounts, only keeping the observations for which Freq &gt; 0, and call it LatLonCounts2.</p>
-<p display_name="Quick Question" url_name="Quick_Question_571">Redo the heatmap from the end of Video 5, using LatLonCounts2 instead of LatLonCounts. You should no longer see any squares out in the water, or in any areas where there were no motor vehicle thefts. </p>
-<div id="Q1_div" class="problem_question"><p display_name="Quick Question" url_name="Quick_Question_572">How many observations did we remove?</p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input" /><input type="hidden" id="Q1_ans" value="952" /><input type="hidden" id="Q1_tolerance" value="0" /><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Quick Question" url_name="Quick_Question_574">
-<div class="detailed-solution">
-<p>Explanation</p>
-<p>You can take a subset of LatLonCounts, only keeping the observations for which Freq &gt; 0 with the following command:</p>
-<p>LatLonCounts2 = subset(LatLonCounts, Freq &gt; 0)</p>
-<p>Then, you can generate the new heatmap with the following command:</p>
-<p>ggmap(chicago) + geom_tile(data=LatLonCounts2, aes(x = Long, y = Lat, alpha=Freq), fill="red")</p>
-<p>The number of observations in LatLonCounts2 is 686, and the number of observations in LatLonCounts is 1638. These numbers can be found by using nrow or str.</p>
-</div>
-</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href="./resolveuid/0d6e8df118b96fff96f8bda53ace64b7">Back<span>Video 5: A Geographical Hot Spot Map</span></a></li><li id="continue_btn"><a href="./resolveuid/50eab6cd164e035d9470dc118924f686">Continue<span>Video 6: A Heatmap on the United States</span></a></li></ul>
+
+*   [\<Video 5: A Geographical Hot Spot Map]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-5-a-geographical-hot-spot-map)
+*   [7.3.1Video 1: Predictive Policing]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order)
+*   [7.3.2Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-540)
+*   [7.3.3Video 2: Visualizing Crime Over Time]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-2-visualizing-crime-over-time)
+*   [7.3.4Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-545)
+*   [7.3.5Video 3: A Line Plot]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-3-a-line-plot)
+*   [7.3.6Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-550)
+*   [7.3.7Video 4: A Heatmap]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-4-a-heatmap)
+*   [7.3.8Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-559)
+*   [7.3.9Video 5: A Geographical Hot Spot Map]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-5-a-geographical-hot-spot-map)
+*   [7.3.10Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-567)
+*   [7.3.11Video 6: A Heatmap on the United States]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-6-a-heatmap-on-the-united-states)
+*   [7.3.12Quick Question]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/quick-question-575)
+*   [7.3.13Video 7: The Analytics Edge]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-7-the-analytics-edge)
+*   [\>Video 6: A Heatmap on the United States]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-6-a-heatmap-on-the-united-states)
+
+Quick Question
+--------------
+
+In the previous video, our heatmap was plotting squares out in the water, which seems a little strange. We can fix this by removing the observations from our data frame that have Freq = 0.
+
+Take a subset of LatLonCounts, only keeping the observations for which Freq > 0, and call it LatLonCounts2.
+
+Redo the heatmap from the end of Video 5, using LatLonCounts2 instead of LatLonCounts. You should no longer see any squares out in the water, or in any areas where there were no motor vehicle thefts.
+
+How many observations did we remove?
+
+Exercise 1
+
+&nbsp;Numerical Response&nbsp;
+
+*   [BackVideo 5: A Geographical Hot Spot Map]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-5-a-geographical-hot-spot-map)
+*   [ContinueVideo 6: A Heatmap on the United States]({{< baseurl >}}/pages/visualization/the-analytical-policeman-visualization-for-law-and-order/video-6-a-heatmap-on-the-united-states)

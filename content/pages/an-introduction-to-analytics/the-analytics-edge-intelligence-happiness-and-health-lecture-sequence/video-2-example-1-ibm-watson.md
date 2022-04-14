@@ -1,13 +1,16 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: '1.2 The Analytics Edge: Intelligence, Happiness, and Health  (Lecture
   Sequence)'
+parent_type: CourseSection
 parent_uid: 9fb45936-9f44-df97-dad3-89bb5d1aa82c
 title: '1.2 The Analytics Edge: Intelligence, Happiness, and Health  (Lecture Sequence)'
 uid: d47941e3-7e10-d553-df10-f1506d21de79
 ---
 
-*   [<The Analytics Edge: Intelligence, Happiness, and Health (Lecture Sequence)]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence)
+*   [\<The Analytics Edge: Intelligence, Happiness, and Health (Lecture Sequence)]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence)
 *   [1.2.1Video 1: Introduction to The Analytics Edge]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence)
 *   [1.2.2Video 2: Example 1 - IBM Watson]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-2-example-1-ibm-watson)
 *   [1.2.3Video 3: Example 2 - eHarmony]({{< baseurl >}}/pages/an-introduction-to-analytics/the-analytics-edge-intelligence-happiness-and-health-lecture-sequence/video-3-example-2-eharmony)

@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '2.3 Moneyball: The Power of Sports Analytics '
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: Introduction to Baseball Video
 uid: f49d752d-0bd4-6e9c-9c25-c720cc65aa8c
 video_files:

@@ -1,8 +1,17 @@
 ---
 content_type: resource
 description: ''
+end_time: ''
 file: null
+learning_resource_types: []
+optional_tab_title: ''
+optional_text: ''
+parent_title: '3.2 Modeling the Expert: An Introduction to Logistic Regression'
+parent_type: CourseSection
+related_resources_text: ''
+resource_index_text: ''
 resourcetype: Video
+start_time: ''
 title: 'Video 6: ROC Curves'
 uid: 6b84313f-beb7-8cbe-52d6-3413bfb5bb01
 video_files:
