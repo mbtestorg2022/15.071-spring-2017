@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: 'Resource:'
-file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/b7aa3ea7d1fcb58d70b89ae225669588_CPSData.csv
+file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/15-071-the-analytics-edge-spring-2017/b7aa3ea7d1fcb58d70b89ae225669588_CPSData.csv
 file_type: text/comma-separated-values
 learning_resource_types:
 - Assignments
